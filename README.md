@@ -4,7 +4,7 @@
 
 Abdul Sami · Department of Informatics, Systems and Communication, University of Milano-Bicocca, Milan, Italy
 
-[Paper (preprint)](PAPER_LINK) · [Kaggle dataset: splits, results, weights](KAGGLE_LINK) · DOI: [ZENODO_DOI](ZENODO_LINK)
+[Paper (preprint)](PAPER_LINK) · [Kaggle dataset: splits, results, weights]([KAGGLE_LINK](https://www.kaggle.com/datasets/samiwadho/accuracy-is-not-attention-grad-cam-artefacts)) · DOI: [ZENODO_DOI](ZENODO_LINK)
 
 ---
 
