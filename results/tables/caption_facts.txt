@@ -1,0 +1,15 @@
+skin: 78.3% of true Benign images were classified correctly; the most common error was Malignant (21.7%).
+skin: 56.0% of true Malignant images were classified correctly; the most common error was Benign (44.0%).
+brain: 82.9% of true glioma images were classified correctly; the most common error was meningioma (9.8%).
+brain: 95.7% of true meningioma images were classified correctly; the most common error was pituitary (2.0%).
+brain: 100.0% of true notumor images were classified correctly; no errors.
+brain: 100.0% of true pituitary images were classified correctly; no errors.
+chest_xray: 59.2% of true Normal images were classified correctly; the most common error was Disease (40.8%).
+chest_xray: 69.2% of true Disease images were classified correctly; the most common error was Normal (30.8%).
+histopathology: 88.0% of true Normal images were classified correctly; the most common error was InSitu (12.0%).
+histopathology: 60.9% of true Benign images were classified correctly; the most common error was InSitu (26.1%).
+histopathology: 100.0% of true InSitu images were classified correctly; no errors.
+histopathology: 87.5% of true Invasive images were classified correctly; the most common error was Benign (6.2%).
+brain_figshare: 89.7% of true Meningioma images were classified correctly; the most common error was Pituitary (8.3%).
+brain_figshare: 82.1% of true Glioma images were classified correctly; the most common error was Meningioma (15.4%).
+brain_figshare: 98.0% of true Pituitary images were classified correctly; the most common error was Meningioma (2.0%).

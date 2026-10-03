@@ -1,0 +1,96 @@
+{
+  "skin": [
+    [
+      "train: listed in CSV but image file missing",
+      0
+    ],
+    [
+      "train: no segmentation mask (kept for classification, excluded from localisation)",
+      0
+    ],
+    [
+      "test: listed in CSV but image file missing",
+      0
+    ],
+    [
+      "test: no segmentation mask (kept for classification, excluded from localisation)",
+      0
+    ]
+  ],
+  "brain": [
+    [
+      "files found",
+      7200
+    ],
+    [
+      "byte-identical images with conflicting labels (removed)",
+      0
+    ],
+    [
+      "official-test image byte-identical to a training image (removed from test)",
+      0
+    ],
+    [
+      "duplicate inside official test set (removed)",
+      16
+    ],
+    [
+      "NOTE (not removed): test images with a perceptual-hash twin in training",
+      369
+    ]
+  ],
+  "chest_xray": [
+    [
+      "Data_Entry_2017.csv rows whose image is not in images/ (only a subset of the 112,120 was downloaded)",
+      97121
+    ],
+    [
+      "bbox images not in the downloaded subset (of 880 bbox images in BBox_List_2017.csv)",
+      796
+    ],
+    [
+      "patients forced into TEST because they own a bbox image (76 patients)",
+      1633
+    ]
+  ],
+  "histopathology": [
+    [
+      "files found",
+      399
+    ],
+    [
+      "same file stem stored in two formats (kept one)",
+      0
+    ],
+    [
+      "unreadable / corrupted (removed): ",
+      0
+    ],
+    [
+      "final count Normal",
+      100
+    ],
+    [
+      "final count Benign",
+      100
+    ],
+    [
+      "final count InSitu",
+      99
+    ],
+    [
+      "final count Invasive",
+      100
+    ]
+  ],
+  "brain_figshare": [
+    [
+      "slices",
+      3064
+    ],
+    [
+      "patients",
+      233
+    ]
+  ]
+}

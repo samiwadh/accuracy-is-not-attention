@@ -1,0 +1,75 @@
+{
+  "env": {
+    "python": "3.9.25",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "tensorflow": "2.10.0",
+    "numpy": "1.24.3",
+    "pandas": "2.3.3",
+    "sklearn": "1.6.1",
+    "scipy": "1.13.1",
+    "opencv": "4.8.0",
+    "gpus": [
+      "/physical_device:GPU:0"
+    ],
+    "gpu_details": [
+      {
+        "device_name": "NVIDIA GeForce RTX 3050 6GB Laptop GPU",
+        "compute_capability": [
+          8,
+          6
+        ]
+      }
+    ]
+  },
+  "cfg": {
+    "img_size": 224,
+    "batch_size": 16,
+    "epochs_stage1": 10,
+    "epochs_stage2": 20,
+    "lr_stage1": 0.0001,
+    "lr_stage2": 1e-05,
+    "adam": {
+      "beta_1": 0.9,
+      "beta_2": 0.999,
+      "epsilon": 1e-07
+    },
+    "finetune_from_layer": "conv5_block1_1_conv",
+    "finetune_batchnorm": false,
+    "dropout": 0.4,
+    "early_stop_patience": 6,
+    "lr_plateau_factor": 0.3,
+    "lr_plateau_patience": 3,
+    "min_lr": 1e-07,
+    "checkpoint_monitor": "val_loss",
+    "use_class_weights": true,
+    "augmentation": {
+      "hflip": true,
+      "rotation_factor": 0.05,
+      "zoom": 0.1,
+      "contrast": 0.1
+    },
+    "val_fraction": 0.2,
+    "test_fraction": 0.2,
+    "gradcam_layer": "conv5_block3_out",
+    "cam_thresholds": [
+      0.3,
+      0.4,
+      0.5,
+      0.6,
+      0.7
+    ],
+    "primary_tau": 0.5,
+    "primary_metric": "energy_in_gt",
+    "n_bootstrap": 10000,
+    "n_permutations": 10000,
+    "n_bootstrap_cls": 2000,
+    "mixed_precision": false,
+    "deterministic_ops": false
+  },
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "split_seed": 42
+}

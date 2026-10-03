@@ -1,0 +1,6 @@
+Domain,Classes,Total,Train,Val,Test,Test_with_GT,GT_type,Groups
+skin,2,1279,720,180,379,379,pixel,1279
+brain,4,7184,4481,1119,1584,0,none,7013
+chest_xray,2,14999,9372,2527,3100,84,bbox,3923
+histopathology,4,399,255,64,80,0,none,399
+brain_figshare,3,3064,1984,435,645,645,pixel,233
