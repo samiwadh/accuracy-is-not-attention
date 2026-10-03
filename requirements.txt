@@ -1,0 +1,10 @@
+# Versions used for the paper (see results/run_config.json). Python 3.9.
+tensorflow==2.10.0
+numpy==1.24.3
+pandas==2.3.3
+scikit-learn==1.6.1
+scipy==1.13.1
+opencv-python==4.8.0.76
+matplotlib
+seaborn
+h5py          # only for converting the figshare .mat files

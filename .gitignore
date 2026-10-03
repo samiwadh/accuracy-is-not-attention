@@ -1,0 +1,9 @@
+# raw data and large binaries are NOT committed
+Dataset/
+outputs/
+release/
+*.h5
+*.keras
+*.zip
+.ipynb_checkpoints/
+__pycache__/

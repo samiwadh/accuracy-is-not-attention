@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this code or the released splits, please cite it as below."
+title: "Accuracy Is Not Attention: Grad-CAM Lesion Localisation in Correct and Misclassified Predictions Across Medical Imaging Domains"
+authors:
+  - family-names: Sami
+    given-names: Abdul
+    affiliation: "University of Milano-Bicocca"
+    orcid: "https://orcid.org/0000-0000-0000-0000"   # TODO: your ORCID
+repository-code: "https://github.com/samiwadh/accuracy-is-not-attention"
+license: MIT
+date-released: 2026-10-03
