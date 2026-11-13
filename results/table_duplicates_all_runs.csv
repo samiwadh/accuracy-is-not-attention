@@ -1,0 +1,14 @@
+domain,seed,analysis,all_images,without_duplicates,n_all,n_without,delta,ci95,n_images,run,role
+skin,42,balanced accuracy,0.708421052631579,0.7121442634687667,379.0,376.0,,,,v3_strong_skin,main
+skin,43,balanced accuracy,0.6073684210526316,0.6091820297118311,379.0,376.0,,,,v3_strong_skin,main
+skin,44,balanced accuracy,0.6239912280701754,0.6260068015034903,379.0,376.0,,,,v3_strong_skin,main
+skin,pooled,"primary endpoint, all",,,,,-0.1193881654746584,"[-0.209, -0.036]",75.0,v3_strong_skin,main
+skin,pooled,"primary endpoint, without duplicates",,,,,-0.120580870656005,"[-0.21, -0.029]",74.0,v3_strong_skin,main
+skin,42,balanced accuracy,0.6714473684210527,0.667755503848219,379.0,376.0,,,,v2_corrected,sensitivity (v2 model)
+skin,43,balanced accuracy,0.5823464912280701,0.5838106318238769,379.0,376.0,,,,v2_corrected,sensitivity (v2 model)
+skin,44,balanced accuracy,0.6041666666666666,0.6060050116341507,379.0,376.0,,,,v2_corrected,sensitivity (v2 model)
+skin,pooled,"primary endpoint, all",,,,,-0.2054801069170883,"[-0.281, -0.13]",75.0,v2_corrected,sensitivity (v2 model)
+skin,pooled,"primary endpoint, without duplicates",,,,,-0.2045985218562497,"[-0.283, -0.122]",74.0,v2_corrected,sensitivity (v2 model)
+histopathology,42,balanced accuracy,0.8409239130434782,0.8409239130434782,80.0,80.0,,,,v2_corrected,classification only
+histopathology,43,balanced accuracy,0.7409510869565217,0.7409510869565217,80.0,80.0,,,,v2_corrected,classification only
+histopathology,44,balanced accuracy,0.7991847826086956,0.7991847826086956,80.0,80.0,,,,v2_corrected,classification only

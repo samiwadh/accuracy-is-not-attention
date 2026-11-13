@@ -1,0 +1,22 @@
+domain,group,n,empty_maps,empty_pct,pos_share_mean,pos_share_median,pos_share_ci95,seed_signs,run,role
+skin,correct,101.0,0.0,0.0,0.4396219785214076,0.4251415365001247,,,v3_strong_skin,main
+skin,misclassified,124.0,1.0,0.8,0.1118158577570171,0.1015249854621112,,,v3_strong_skin,main
+skin,M - C,,,,-0.3278061207643905,,"[-0.362, -0.291]",- - -,v3_strong_skin,main
+chest_xray,correct,181.0,0.0,0.0,0.6423404422042498,0.6304883445742496,,,v3_strong_chest,main
+chest_xray,misclassified,71.0,0.0,0.0,0.3037771489302602,0.3037501686707321,,,v3_strong_chest,main
+chest_xray,M - C,,,,-0.3385632932739895,,"[-0.38, -0.294]",- - -,v3_strong_chest,main
+skin,correct,87.0,0.0,0.0,0.4610268313402997,0.4266102213723075,,,v2_corrected,sensitivity (v2 model)
+skin,misclassified,138.0,1.0,0.7,0.083572786574356,0.0641591617013384,,,v2_corrected,sensitivity (v2 model)
+skin,M - C,,,,-0.3774540447659437,,"[-0.421, -0.332]",- - -,v2_corrected,sensitivity (v2 model)
+chest_xray,correct,167.0,0.0,0.0,0.6297394719214616,0.6544564467908588,,,v2_corrected,sensitivity (v2 model)
+chest_xray,misclassified,85.0,0.0,0.0,0.2708485132763552,0.2542015927237679,,,v2_corrected,sensitivity (v2 model)
+chest_xray,M - C,,,,-0.3588909586451064,,"[-0.403, -0.316]",- - -,v2_corrected,sensitivity (v2 model)
+brain_figshare,correct,1695.0,0.0,0.0,0.7760700550659786,0.8677621331184175,,,v2_corrected,main
+brain_figshare,misclassified,240.0,1.0,0.4,0.3147746850096641,0.2363976539906945,,,v2_corrected,main
+brain_figshare,M - C,,,,-0.4612953700563144,,"[-0.53, -0.375]",- - -,v2_corrected,main
+siim,correct,982.0,0.0,0.0,0.7704508785531947,0.7951714797684247,,,v5_siim,replication (frozen plan)
+siim,misclassified,560.0,0.0,0.0,0.4690671571162606,0.4905685982643322,,,v5_siim,replication (frozen plan)
+siim,M - C,,,,-0.3013837214369341,,"[-0.32, -0.282]",- - -,v5_siim,replication (frozen plan)
+brain_figshare,correct,1657.0,0.0,0.0,0.8213712195335396,0.8998276134611031,,,v5_densenet_brain,second architecture
+brain_figshare,misclassified,278.0,2.0,0.7,0.3602163258292036,0.3172439151923822,,,v5_densenet_brain,second architecture
+brain_figshare,M - C,,,,-0.461154893704336,,"[-0.519, -0.407]",- - -,v5_densenet_brain,second architecture

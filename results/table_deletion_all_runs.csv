@@ -1,0 +1,521 @@
+domain,infill,scale,contrast,images,n,mean,ci95,mean_change_a,mean_change_b,seed_signs,p,run,role
+skin,blur,logit,lesion - control,all,75,1.8985748831099931,"[1.443, 2.392]",0.0201113848873213,0.0113625995707018,,,v3_strong_skin,main
+skin,blur,logit,lesion - control,correct,60,2.7408228860061503,"[1.852, 3.72]",0.0201113848873213,0.0113625995707018,,,v3_strong_skin,main
+skin,blur,logit,lesion - control,misclassified,65,1.2125503001058655,"[0.895, 1.541]",0.0201113848873213,0.0113625995707018,,,v3_strong_skin,main
+skin,blur,logit,gradcam - control,all,75,1.8181050819365516,"[1.382, 2.294]",0.0186256802757321,0.0113625995707018,,,v3_strong_skin,main
+skin,blur,logit,gradcam - control,correct,60,3.134382227223625,"[2.23, 4.095]",0.0186256802757321,0.0113625995707018,,,v3_strong_skin,main
+skin,blur,logit,gradcam - control,misclassified,65,0.7459761168236935,"[0.394, 1.113]",0.0186256802757321,0.0113625995707018,,,v3_strong_skin,main
+skin,blur,logit,lesion - gradcam,all,75,0.0804698011734419,"[-0.202, 0.375]",0.0201113848873213,0.0186256802757321,,,v3_strong_skin,main
+skin,blur,logit,lesion - gradcam,correct,60,-0.3935593412174741,"[-0.894, 0.13]",0.0201113848873213,0.0186256802757321,,,v3_strong_skin,main
+skin,blur,logit,lesion - gradcam,misclassified,65,0.466574183282172,"[0.141, 0.8]",0.0201113848873213,0.0186256802757321,,,v3_strong_skin,main
+skin,blur,logit,border - border_control,all,75,-0.6629768459954195,"[-0.907, -0.434]",0.0113808751100418,0.009326378869822,,,v3_strong_skin,main
+skin,blur,logit,border - border_control,correct,60,-0.6371934300744998,"[-1.013, -0.243]",0.0113808751100418,0.009326378869822,,,v3_strong_skin,main
+skin,blur,logit,border - border_control,misclassified,65,-0.6839778541245558,"[-0.947, -0.432]",0.0113808751100418,0.009326378869822,,,v3_strong_skin,main
+skin,blur,probability,lesion - control,all,75,0.1221598023692991,"[0.088, 0.161]",0.0201113848873213,0.0113625995707018,,,v3_strong_skin,main
+skin,blur,probability,lesion - control,correct,60,0.1915694550194743,"[0.121, 0.265]",0.0201113848873213,0.0113625995707018,,,v3_strong_skin,main
+skin,blur,probability,lesion - control,misclassified,65,0.0656245207752049,"[0.046, 0.087]",0.0201113848873213,0.0113625995707018,,,v3_strong_skin,main
+skin,blur,probability,gradcam - control,all,75,0.1117282859845747,"[0.08, 0.145]",0.0186256802757321,0.0113625995707018,,,v3_strong_skin,main
+skin,blur,probability,gradcam - control,correct,60,0.2245682849650509,"[0.164, 0.286]",0.0186256802757321,0.0113625995707018,,,v3_strong_skin,main
+skin,blur,probability,gradcam - control,misclassified,65,0.0198182868149932,"[-0.014, 0.055]",0.0186256802757321,0.0113625995707018,,,v3_strong_skin,main
+skin,blur,probability,lesion - gradcam,all,75,0.0104315163847244,"[-0.013, 0.035]",0.0201113848873213,0.0186256802757321,,,v3_strong_skin,main
+skin,blur,probability,lesion - gradcam,correct,60,-0.0329988299455766,"[-0.068, 0.001]",0.0201113848873213,0.0186256802757321,,,v3_strong_skin,main
+skin,blur,probability,lesion - gradcam,misclassified,65,0.0458062339602116,"[0.013, 0.08]",0.0201113848873213,0.0186256802757321,,,v3_strong_skin,main
+skin,blur,probability,border - border_control,all,75,-0.0242209801117756,"[-0.047, -0.004]",0.0113808751100418,0.009326378869822,,,v3_strong_skin,main
+skin,blur,probability,border - border_control,correct,60,-0.0326427297273239,"[-0.075, 0.012]",0.0113808751100418,0.009326378869822,,,v3_strong_skin,main
+skin,blur,probability,border - border_control,misclassified,65,-0.0173613292152404,"[-0.036, 0.001]",0.0113808751100418,0.009326378869822,,,v3_strong_skin,main
+skin,blur,abs logit,lesion - control,all,75,1.763723274535603,"[1.332, 2.235]",0.0201113848873213,0.0113625995707018,,,v3_strong_skin,main
+skin,blur,abs logit,lesion - control,correct,60,2.60104428784055,"[1.743, 3.51]",0.0201113848873213,0.0113625995707018,,,v3_strong_skin,main
+skin,blur,abs logit,lesion - control,misclassified,65,1.0817118040210898,"[0.786, 1.385]",0.0201113848873213,0.0113625995707018,,,v3_strong_skin,main
+skin,blur,abs logit,gradcam - control,all,75,1.851901778458721,"[1.436, 2.312]",0.0186256802757321,0.0113625995707018,,,v3_strong_skin,main
+skin,blur,abs logit,gradcam - control,correct,60,2.998346150778972,"[2.122, 3.899]",0.0186256802757321,0.0113625995707018,,,v3_strong_skin,main
+skin,blur,abs logit,gradcam - control,misclassified,65,0.9181043461656138,"[0.638, 1.217]",0.0186256802757321,0.0113625995707018,,,v3_strong_skin,main
+skin,blur,abs logit,lesion - gradcam,all,75,-0.0881785039231181,"[-0.374, 0.202]",0.0201113848873213,0.0186256802757321,,,v3_strong_skin,main
+skin,blur,abs logit,lesion - gradcam,correct,60,-0.3973018629384218,"[-0.901, 0.132]",0.0201113848873213,0.0186256802757321,,,v3_strong_skin,main
+skin,blur,abs logit,lesion - gradcam,misclassified,65,0.163607457855476,"[-0.1, 0.447]",0.0201113848873213,0.0186256802757321,,,v3_strong_skin,main
+skin,blur,abs logit,border - border_control,all,75,-0.645359809939853,"[-0.896, -0.399]",0.0113808751100418,0.009326378869822,,,v3_strong_skin,main
+skin,blur,abs logit,border - border_control,correct,60,-0.6290539804509482,"[-1.03, -0.21]",0.0113808751100418,0.009326378869822,,,v3_strong_skin,main
+skin,blur,abs logit,border - border_control,misclassified,65,-0.6586411710558159,"[-0.916, -0.41]",0.0113808751100418,0.009326378869822,,,v3_strong_skin,main
+skin,blur,logit per change,lesion - control,all,75,-41.57038827653892,"[-81.293, -5.408]",0.0201113848873213,0.0113625995707018,,,v3_strong_skin,main
+skin,blur,logit per change,lesion - control,correct,60,-44.78251615786439,"[-106.061, 10.794]",0.0201113848873213,0.0113625995707018,,,v3_strong_skin,main
+skin,blur,logit per change,lesion - control,misclassified,65,-38.9540583086851,"[-84.505, 6.087]",0.0201113848873213,0.0113625995707018,,,v3_strong_skin,main
+skin,blur,logit per change,gradcam - control,all,75,26.957217061830484,"[-17.235, 71.893]",0.0186256802757321,0.0113625995707018,,,v3_strong_skin,main
+skin,blur,logit per change,gradcam - control,correct,60,17.86971366582446,"[-42.359, 74.935]",0.0186256802757321,0.0113625995707018,,,v3_strong_skin,main
+skin,blur,logit per change,gradcam - control,misclassified,65,34.35913515051283,"[-15.806, 91.326]",0.0186256802757321,0.0113625995707018,,,v3_strong_skin,main
+skin,blur,logit per change,lesion - gradcam,all,75,-68.5276053383694,"[-103.03, -36.879]",0.0201113848873213,0.0186256802757321,,,v3_strong_skin,main
+skin,blur,logit per change,lesion - gradcam,correct,60,-62.65222982368885,"[-106.337, -26.21]",0.0201113848873213,0.0186256802757321,,,v3_strong_skin,main
+skin,blur,logit per change,lesion - gradcam,misclassified,65,-73.31319345919793,"[-121.766, -31.116]",0.0201113848873213,0.0186256802757321,,,v3_strong_skin,main
+skin,blur,logit per change,border - border_control,all,75,-119.27779778138348,"[-165.455, -80.092]",0.0113808751100418,0.009326378869822,,,v3_strong_skin,main
+skin,blur,logit per change,border - border_control,correct,60,-109.56600307955785,"[-167.409, -49.631]",0.0113808751100418,0.009326378869822,,,v3_strong_skin,main
+skin,blur,logit per change,border - border_control,misclassified,65,-127.18821120787044,"[-208.658, -67.565]",0.0113808751100418,0.009326378869822,,,v3_strong_skin,main
+skin,blur,logit,lesion reliance: M - C (raw),all,75,-1.5282725859002848,"[-2.517, -0.556]",,,- - -,,v3_strong_skin,main
+skin,blur,logit,"lesion reliance: M - C (adjusted: size, start score, pixel change)",all,75,0.2808349803825309,"[-1.015, 1.577]",,,,0.6671289391385358,v3_strong_skin,main
+skin,blur,logit,border reliance: M - C (raw),all,75,-0.046784424050056,"[-0.504, 0.382]",,,- + +,,v3_strong_skin,main
+skin,blur,logit,"border reliance: M - C (adjusted: size, start score, pixel change)",all,75,0.1420662804352222,"[-0.557, 0.841]",,,,0.6865915792075594,v3_strong_skin,main
+skin,inpaint,logit,lesion - control,all,75,1.3398830891421272,"[1.019, 1.666]",0.0766350056579689,0.0144084613685676,,,v3_strong_skin,main
+skin,inpaint,logit,lesion - control,correct,60,2.125564486147965,"[1.502, 2.752]",0.0766350056579689,0.0144084613685676,,,v3_strong_skin,main
+skin,inpaint,logit,lesion - control,misclassified,65,0.6999329190002754,"[0.435, 1.005]",0.0766350056579689,0.0144084613685676,,,v3_strong_skin,main
+skin,inpaint,logit,gradcam - control,all,75,1.0448336990674336,"[0.763, 1.367]",0.0293928529421488,0.0144084613685676,,,v3_strong_skin,main
+skin,inpaint,logit,gradcam - control,correct,60,1.8363335555474647,"[1.309, 2.404]",0.0293928529421488,0.0144084613685676,,,v3_strong_skin,main
+skin,inpaint,logit,gradcam - control,misclassified,65,0.4001442998377306,"[0.168, 0.647]",0.0293928529421488,0.0144084613685676,,,v3_strong_skin,main
+skin,inpaint,logit,lesion - gradcam,all,75,0.2950493900746935,"[0.082, 0.513]",0.0766350056579689,0.0293928529421488,,,v3_strong_skin,main
+skin,inpaint,logit,lesion - gradcam,correct,60,0.2892309306004997,"[-0.071, 0.646]",0.0766350056579689,0.0293928529421488,,,v3_strong_skin,main
+skin,inpaint,logit,lesion - gradcam,misclassified,65,0.2997886191625448,"[0.053, 0.561]",0.0766350056579689,0.0293928529421488,,,v3_strong_skin,main
+skin,inpaint,logit,border - border_control,all,75,0.3928971272686289,"[0.246, 0.536]",0.0183865166062525,0.0096266477966198,,,v3_strong_skin,main
+skin,inpaint,logit,border - border_control,correct,60,0.3615945625547688,"[0.139, 0.577]",0.0183865166062525,0.0096266477966198,,,v3_strong_skin,main
+skin,inpaint,logit,border - border_control,misclassified,65,0.418393571108144,"[0.23, 0.601]",0.0183865166062525,0.0096266477966198,,,v3_strong_skin,main
+skin,inpaint,probability,lesion - control,all,75,0.1781745431998748,"[0.142, 0.216]",0.0766350056579689,0.0144084613685676,,,v3_strong_skin,main
+skin,inpaint,probability,lesion - control,correct,60,0.2918871137800627,"[0.212, 0.367]",0.0766350056579689,0.0144084613685676,,,v3_strong_skin,main
+skin,inpaint,probability,lesion - control,misclassified,65,0.0855538203885927,"[0.059, 0.118]",0.0766350056579689,0.0144084613685676,,,v3_strong_skin,main
+skin,inpaint,probability,gradcam - control,all,75,0.1370280471905056,"[0.103, 0.171]",0.0293928529421488,0.0144084613685676,,,v3_strong_skin,main
+skin,inpaint,probability,gradcam - control,correct,60,0.2502301553783417,"[0.182, 0.316]",0.0293928529421488,0.0144084613685676,,,v3_strong_skin,main
+skin,inpaint,probability,gradcam - control,misclassified,65,0.0448231042310585,"[0.014, 0.078]",0.0293928529421488,0.0144084613685676,,,v3_strong_skin,main
+skin,inpaint,probability,lesion - gradcam,all,75,0.0411464960093691,"[0.018, 0.066]",0.0766350056579689,0.0293928529421488,,,v3_strong_skin,main
+skin,inpaint,probability,lesion - gradcam,correct,60,0.0416569584017209,"[-0.007, 0.088]",0.0766350056579689,0.0293928529421488,,,v3_strong_skin,main
+skin,inpaint,probability,lesion - gradcam,misclassified,65,0.0407307161575341,"[0.019, 0.064]",0.0766350056579689,0.0293928529421488,,,v3_strong_skin,main
+skin,inpaint,probability,border - border_control,all,75,0.0465969512124416,"[0.027, 0.067]",0.0183865166062525,0.0096266477966198,,,v3_strong_skin,main
+skin,inpaint,probability,border - border_control,correct,60,0.0471586702760131,"[0.013, 0.082]",0.0183865166062525,0.0096266477966198,,,v3_strong_skin,main
+skin,inpaint,probability,border - border_control,misclassified,65,0.0461394219751778,"[0.023, 0.07]",0.0183865166062525,0.0096266477966198,,,v3_strong_skin,main
+skin,inpaint,abs logit,lesion - control,all,75,0.9720347064505848,"[0.67, 1.292]",0.0766350056579689,0.0144084613685676,,,v3_strong_skin,main
+skin,inpaint,abs logit,lesion - control,correct,60,1.6723197483651266,"[1.085, 2.279]",0.0766350056579689,0.0144084613685676,,,v3_strong_skin,main
+skin,inpaint,abs logit,lesion - control,misclassified,65,0.4016412448911597,"[0.182, 0.653]",0.0766350056579689,0.0144084613685676,,,v3_strong_skin,main
+skin,inpaint,abs logit,gradcam - control,all,75,0.7650909361988306,"[0.514, 1.038]",0.0293928529421488,0.0144084613685676,,,v3_strong_skin,main
+skin,inpaint,abs logit,gradcam - control,correct,60,1.4080406599447577,"[0.902, 1.933]",0.0293928529421488,0.0144084613685676,,,v3_strong_skin,main
+skin,inpaint,abs logit,gradcam - control,misclassified,65,0.2413980160509386,"[0.073, 0.406]",0.0293928529421488,0.0144084613685676,,,v3_strong_skin,main
+skin,inpaint,abs logit,lesion - gradcam,all,75,0.2069437702517542,"[0.02, 0.397]",0.0766350056579689,0.0293928529421488,,,v3_strong_skin,main
+skin,inpaint,abs logit,lesion - gradcam,correct,60,0.2642790884203692,"[-0.089, 0.621]",0.0766350056579689,0.0293928529421488,,,v3_strong_skin,main
+skin,inpaint,abs logit,lesion - gradcam,misclassified,65,0.160243228840221,"[-0.048, 0.376]",0.0766350056579689,0.0293928529421488,,,v3_strong_skin,main
+skin,inpaint,abs logit,border - border_control,all,75,0.240541248983807,"[0.131, 0.349]",0.0183865166062525,0.0096266477966198,,,v3_strong_skin,main
+skin,inpaint,abs logit,border - border_control,correct,60,0.2889107758073265,"[0.11, 0.472]",0.0183865166062525,0.0096266477966198,,,v3_strong_skin,main
+skin,inpaint,abs logit,border - border_control,misclassified,65,0.2011434892323919,"[0.048, 0.358]",0.0183865166062525,0.0096266477966198,,,v3_strong_skin,main
+skin,inpaint,logit per change,lesion - control,all,75,-36.761122760825536,"[-59.457, -14.752]",0.0766350056579689,0.0144084613685676,,,v3_strong_skin,main
+skin,inpaint,logit per change,lesion - control,correct,60,-41.96709473636478,"[-70.625, -13.339]",0.0766350056579689,0.0144084613685676,,,v3_strong_skin,main
+skin,inpaint,logit per change,lesion - control,misclassified,65,-32.52077461945889,"[-63.498, 0.557]",0.0766350056579689,0.0144084613685676,,,v3_strong_skin,main
+skin,inpaint,logit per change,gradcam - control,all,75,7.98903262354328,"[-16.121, 31.781]",0.0293928529421488,0.0144084613685676,,,v3_strong_skin,main
+skin,inpaint,logit per change,gradcam - control,correct,60,13.338145887929656,"[-17.705, 43.969]",0.0293928529421488,0.0144084613685676,,,v3_strong_skin,main
+skin,inpaint,logit per change,gradcam - control,misclassified,65,3.6320935936801866,"[-27.201, 37.229]",0.0293928529421488,0.0144084613685676,,,v3_strong_skin,main
+skin,inpaint,logit per change,lesion - gradcam,all,75,-44.75015538436881,"[-59.497, -29.296]",0.0766350056579689,0.0293928529421488,,,v3_strong_skin,main
+skin,inpaint,logit per change,lesion - gradcam,correct,60,-55.305240624294434,"[-70.715, -41.509]",0.0766350056579689,0.0293928529421488,,,v3_strong_skin,main
+skin,inpaint,logit per change,lesion - gradcam,misclassified,65,-36.15286821313908,"[-58.884, -13.737]",0.0766350056579689,0.0293928529421488,,,v3_strong_skin,main
+skin,inpaint,logit per change,border - border_control,all,75,11.801664356364292,"[-12.353, 36.932]",0.0183865166062525,0.0096266477966198,,,v3_strong_skin,main
+skin,inpaint,logit per change,border - border_control,correct,60,9.160131642190214,"[-24.89, 45.404]",0.0183865166062525,0.0096266477966198,,,v3_strong_skin,main
+skin,inpaint,logit per change,border - border_control,misclassified,65,13.95323535742544,"[-15.039, 44.585]",0.0183865166062525,0.0096266477966198,,,v3_strong_skin,main
+skin,inpaint,logit,lesion reliance: M - C (raw),all,75,-1.4256315671476891,"[-2.161, -0.72]",,,- - -,,v3_strong_skin,main
+skin,inpaint,logit,"lesion reliance: M - C (adjusted: size, start score, pixel change)",all,75,0.070503819915041,"[-1.065, 1.206]",,,,0.9018359154815082,v3_strong_skin,main
+skin,inpaint,logit,border reliance: M - C (raw),all,75,0.0567990085533751,"[-0.22, 0.342]",,,- - +,,v3_strong_skin,main
+skin,inpaint,logit,"border reliance: M - C (adjusted: size, start score, pixel change)",all,75,0.2737219005692311,"[-0.078, 0.626]",,,,0.1253815432638195,v3_strong_skin,main
+chest_xray,blur,logit,lesion - control,all,84,-0.1039050382105559,"[-0.179, -0.03]",0.0035421242863531,0.004890830505412,,,v3_strong_chest,main
+chest_xray,blur,logit,lesion - control,correct,72,-0.079786248856291,"[-0.168, 0.006]",0.0035421242863531,0.004890830505412,,,v3_strong_chest,main
+chest_xray,blur,logit,lesion - control,misclassified,34,-0.165390966001006,"[-0.3, -0.048]",0.0035421242863531,0.004890830505412,,,v3_strong_chest,main
+chest_xray,blur,logit,gradcam - control,all,84,0.3012494929144085,"[0.23, 0.374]",0.0038034303012729,0.004890830505412,,,v3_strong_chest,main
+chest_xray,blur,logit,gradcam - control,correct,72,0.3121298786641217,"[0.234, 0.396]",0.0038034303012729,0.004890830505412,,,v3_strong_chest,main
+chest_xray,blur,logit,gradcam - control,misclassified,34,0.2735121714961256,"[0.166, 0.389]",0.0038034303012729,0.004890830505412,,,v3_strong_chest,main
+chest_xray,blur,logit,lesion - gradcam,all,84,-0.4051545311249644,"[-0.481, -0.331]",0.0035421242863531,0.0038034303012729,,,v3_strong_chest,main
+chest_xray,blur,logit,lesion - gradcam,correct,72,-0.3919161275204127,"[-0.476, -0.309]",0.0035421242863531,0.0038034303012729,,,v3_strong_chest,main
+chest_xray,blur,logit,lesion - gradcam,misclassified,34,-0.4389031374971316,"[-0.592, -0.303]",0.0035421242863531,0.0038034303012729,,,v3_strong_chest,main
+chest_xray,blur,logit,border - border_control,all,84,-0.4132861274826739,"[-0.577, -0.258]",0.0256103180648009,0.0206171079472964,,,v3_strong_chest,main
+chest_xray,blur,logit,border - border_control,correct,72,-0.5698329767274016,"[-0.745, -0.388]",0.0256103180648009,0.0206171079472964,,,v3_strong_chest,main
+chest_xray,blur,logit,border - border_control,misclassified,34,-0.0142019061686497,"[-0.308, 0.244]",0.0256103180648009,0.0206171079472964,,,v3_strong_chest,main
+chest_xray,blur,probability,lesion - control,all,84,-0.0240161229694015,"[-0.04, -0.008]",0.0035421242863531,0.004890830505412,,,v3_strong_chest,main
+chest_xray,blur,probability,lesion - control,correct,72,-0.0188771328254874,"[-0.037, -0.001]",0.0035421242863531,0.004890830505412,,,v3_strong_chest,main
+chest_xray,blur,probability,lesion - control,misclassified,34,-0.0371169288292388,"[-0.068, -0.01]",0.0035421242863531,0.004890830505412,,,v3_strong_chest,main
+chest_xray,blur,probability,gradcam - control,all,84,0.063894578772916,"[0.048, 0.08]",0.0038034303012729,0.004890830505412,,,v3_strong_chest,main
+chest_xray,blur,probability,gradcam - control,correct,72,0.0655765320298673,"[0.048, 0.085]",0.0038034303012729,0.004890830505412,,,v3_strong_chest,main
+chest_xray,blur,probability,gradcam - control,misclassified,34,0.0596067824418149,"[0.036, 0.086]",0.0038034303012729,0.004890830505412,,,v3_strong_chest,main
+chest_xray,blur,probability,lesion - gradcam,all,84,-0.0879107017423176,"[-0.104, -0.072]",0.0035421242863531,0.0038034303012729,,,v3_strong_chest,main
+chest_xray,blur,probability,lesion - gradcam,correct,72,-0.0844536648553548,"[-0.102, -0.067]",0.0035421242863531,0.0038034303012729,,,v3_strong_chest,main
+chest_xray,blur,probability,lesion - gradcam,misclassified,34,-0.0967237112710538,"[-0.131, -0.067]",0.0035421242863531,0.0038034303012729,,,v3_strong_chest,main
+chest_xray,blur,probability,border - border_control,all,84,-0.0878079370169846,"[-0.122, -0.055]",0.0256103180648009,0.0206171079472964,,,v3_strong_chest,main
+chest_xray,blur,probability,border - border_control,correct,72,-0.1231123203738501,"[-0.158, -0.086]",0.0256103180648009,0.0206171079472964,,,v3_strong_chest,main
+chest_xray,blur,probability,border - border_control,misclassified,34,0.002193378301222,"[-0.062, 0.058]",0.0256103180648009,0.0206171079472964,,,v3_strong_chest,main
+chest_xray,blur,abs logit,lesion - control,all,84,-0.0129843695497598,"[-0.058, 0.032]",0.0035421242863531,0.004890830505412,,,v3_strong_chest,main
+chest_xray,blur,abs logit,lesion - control,correct,72,-0.0362336354662062,"[-0.093, 0.021]",0.0035421242863531,0.004890830505412,,,v3_strong_chest,main
+chest_xray,blur,abs logit,lesion - control,misclassified,34,0.046284885814702,"[-0.021, 0.129]",0.0035421242863531,0.004890830505412,,,v3_strong_chest,main
+chest_xray,blur,abs logit,gradcam - control,all,84,0.2063093349302468,"[0.148, 0.272]",0.0038034303012729,0.004890830505412,,,v3_strong_chest,main
+chest_xray,blur,abs logit,gradcam - control,correct,72,0.2433941335769792,"[0.168, 0.322]",0.0038034303012729,0.004890830505412,,,v3_strong_chest,main
+chest_xray,blur,abs logit,gradcam - control,misclassified,34,0.1117692144364643,"[0.028, 0.206]",0.0038034303012729,0.004890830505412,,,v3_strong_chest,main
+chest_xray,blur,abs logit,lesion - gradcam,all,84,-0.2192937044800067,"[-0.28, -0.161]",0.0035421242863531,0.0038034303012729,,,v3_strong_chest,main
+chest_xray,blur,abs logit,lesion - gradcam,correct,72,-0.2796277690431854,"[-0.35, -0.208]",0.0035421242863531,0.0038034303012729,,,v3_strong_chest,main
+chest_xray,blur,abs logit,lesion - gradcam,misclassified,34,-0.0654843286217623,"[-0.135, 0.001]",0.0035421242863531,0.0038034303012729,,,v3_strong_chest,main
+chest_xray,blur,abs logit,border - border_control,all,84,-0.4675082798552004,"[-0.552, -0.376]",0.0256103180648009,0.0206171079472964,,,v3_strong_chest,main
+chest_xray,blur,abs logit,border - border_control,correct,72,-0.5122932940721512,"[-0.626, -0.398]",0.0256103180648009,0.0206171079472964,,,v3_strong_chest,main
+chest_xray,blur,abs logit,border - border_control,misclassified,34,-0.3533380323443824,"[-0.462, -0.251]",0.0256103180648009,0.0206171079472964,,,v3_strong_chest,main
+chest_xray,blur,logit per change,lesion - control,all,84,-12.287121527489017,"[-67.234, 47.42]",0.0035421242863531,0.004890830505412,,,v3_strong_chest,main
+chest_xray,blur,logit per change,lesion - control,correct,72,-16.07274208688294,"[-65.081, 26.99]",0.0035421242863531,0.004890830505412,,,v3_strong_chest,main
+chest_xray,blur,logit per change,lesion - control,misclassified,34,-2.6364550310058985,"[-135.638, 177.682]",0.0035421242863531,0.004890830505412,,,v3_strong_chest,main
+chest_xray,blur,logit per change,gradcam - control,all,84,177.34350734700666,"[124.543, 235.166]",0.0038034303012729,0.004890830505412,,,v3_strong_chest,main
+chest_xray,blur,logit per change,gradcam - control,correct,72,156.14800539036003,"[110.184, 198.525]",0.0038034303012729,0.004890830505412,,,v3_strong_chest,main
+chest_xray,blur,logit per change,gradcam - control,misclassified,34,231.3771109266271,"[103.103, 382.873]",0.0038034303012729,0.004890830505412,,,v3_strong_chest,main
+chest_xray,blur,logit per change,lesion - gradcam,all,84,-189.6306288744957,"[-233.879, -151.169]",0.0035421242863531,0.0038034303012729,,,v3_strong_chest,main
+chest_xray,blur,logit per change,lesion - gradcam,correct,72,-172.22074747724295,"[-214.921, -134.735]",0.0035421242863531,0.0038034303012729,,,v3_strong_chest,main
+chest_xray,blur,logit per change,lesion - gradcam,misclassified,34,-234.0135659576329,"[-333.917, -153.419]",0.0035421242863531,0.0038034303012729,,,v3_strong_chest,main
+chest_xray,blur,logit per change,border - border_control,all,84,-26.13200314714471,"[-34.415, -17.723]",0.0256103180648009,0.0206171079472964,,,v3_strong_chest,main
+chest_xray,blur,logit per change,border - border_control,correct,72,-36.13196641422197,"[-44.688, -26.713]",0.0256103180648009,0.0206171079472964,,,v3_strong_chest,main
+chest_xray,blur,logit per change,border - border_control,misclassified,34,-0.6391390437505592,"[-14.626, 12.748]",0.0256103180648009,0.0206171079472964,,,v3_strong_chest,main
+chest_xray,blur,logit,lesion reliance: M - C (raw),all,84,-0.085604717144715,"[-0.252, 0.059]",,,+ + -,,v3_strong_chest,main
+chest_xray,blur,logit,"lesion reliance: M - C (adjusted: size, start score, pixel change)",all,84,-0.0207963083037574,"[-0.251, 0.21]",,,,0.8579300435862705,v3_strong_chest,main
+chest_xray,blur,logit,border reliance: M - C (raw),all,84,0.5556310705587519,"[0.206, 0.873]",,,+ + +,,v3_strong_chest,main
+chest_xray,blur,logit,"border reliance: M - C (adjusted: size, start score, pixel change)",all,84,-0.0970385831684515,"[-0.444, 0.25]",,,,0.5793880782433561,v3_strong_chest,main
+chest_xray,inpaint,logit,lesion - control,all,84,0.1037136828111085,"[0.05, 0.159]",0.0058240269812956,0.003922619086089,,,v3_strong_chest,main
+chest_xray,inpaint,logit,lesion - control,correct,72,0.156994227457596,"[0.087, 0.228]",0.0058240269812956,0.003922619086089,,,v3_strong_chest,main
+chest_xray,inpaint,logit,lesion - control,misclassified,34,-0.0321141845271201,"[-0.111, 0.034]",0.0058240269812956,0.003922619086089,,,v3_strong_chest,main
+chest_xray,inpaint,logit,gradcam - control,all,84,0.3518370698697658,"[0.275, 0.43]",0.0049029548110303,0.003922619086089,,,v3_strong_chest,main
+chest_xray,inpaint,logit,gradcam - control,correct,72,0.3886195177454192,"[0.3, 0.482]",0.0049029548110303,0.003922619086089,,,v3_strong_chest,main
+chest_xray,inpaint,logit,gradcam - control,misclassified,34,0.2580677309191563,"[0.143, 0.398]",0.0049029548110303,0.003922619086089,,,v3_strong_chest,main
+chest_xray,inpaint,logit,lesion - gradcam,all,84,-0.2481233870586572,"[-0.309, -0.185]",0.0058240269812956,0.0049029548110303,,,v3_strong_chest,main
+chest_xray,inpaint,logit,lesion - gradcam,correct,72,-0.2316252902878232,"[-0.302, -0.162]",0.0058240269812956,0.0049029548110303,,,v3_strong_chest,main
+chest_xray,inpaint,logit,lesion - gradcam,misclassified,34,-0.2901819154462764,"[-0.438, -0.168]",0.0058240269812956,0.0049029548110303,,,v3_strong_chest,main
+chest_xray,inpaint,logit,border - border_control,all,84,-0.1341878938292789,"[-0.297, 0.035]",0.0389356673932543,0.0208451727784908,,,v3_strong_chest,main
+chest_xray,inpaint,logit,border - border_control,correct,72,-0.3298810286632641,"[-0.496, -0.149]",0.0389356673932543,0.0208451727784908,,,v3_strong_chest,main
+chest_xray,inpaint,logit,border - border_control,misclassified,34,0.364691787930599,"[0.089, 0.628]",0.0389356673932543,0.0208451727784908,,,v3_strong_chest,main
+chest_xray,inpaint,probability,lesion - control,all,84,0.0211523575553517,"[0.01, 0.034]",0.0058240269812956,0.003922619086089,,,v3_strong_chest,main
+chest_xray,inpaint,probability,lesion - control,correct,72,0.0320871288047358,"[0.017, 0.049]",0.0058240269812956,0.003922619086089,,,v3_strong_chest,main
+chest_xray,inpaint,probability,lesion - control,misclassified,34,-0.0067236085874442,"[-0.024, 0.008]",0.0058240269812956,0.003922619086089,,,v3_strong_chest,main
+chest_xray,inpaint,probability,gradcam - control,all,84,0.0761480687559518,"[0.06, 0.095]",0.0049029548110303,0.003922619086089,,,v3_strong_chest,main
+chest_xray,inpaint,probability,gradcam - control,correct,72,0.0831228889965337,"[0.063, 0.104]",0.0049029548110303,0.003922619086089,,,v3_strong_chest,main
+chest_xray,inpaint,probability,gradcam - control,misclassified,34,0.0583671889877076,"[0.033, 0.09]",0.0049029548110303,0.003922619086089,,,v3_strong_chest,main
+chest_xray,inpaint,probability,lesion - gradcam,all,84,-0.0549957112006,"[-0.069, -0.041]",0.0058240269812956,0.0049029548110303,,,v3_strong_chest,main
+chest_xray,inpaint,probability,lesion - gradcam,correct,72,-0.0510357601917979,"[-0.067, -0.035]",0.0058240269812956,0.0049029548110303,,,v3_strong_chest,main
+chest_xray,inpaint,probability,lesion - gradcam,misclassified,34,-0.0650907975751519,"[-0.099, -0.038]",0.0058240269812956,0.0049029548110303,,,v3_strong_chest,main
+chest_xray,inpaint,probability,border - border_control,all,84,-0.027803020051155,"[-0.061, 0.007]",0.0389356673932543,0.0208451727784908,,,v3_strong_chest,main
+chest_xray,inpaint,probability,border - border_control,correct,72,-0.0677897721835692,"[-0.102, -0.029]",0.0389356673932543,0.0208451727784908,,,v3_strong_chest,main
+chest_xray,inpaint,probability,border - border_control,misclassified,34,0.0741350382019007,"[0.016, 0.126]",0.0389356673932543,0.0208451727784908,,,v3_strong_chest,main
+chest_xray,inpaint,abs logit,lesion - control,all,84,0.0780490700327347,"[0.042, 0.115]",0.0058240269812956,0.003922619086089,,,v3_strong_chest,main
+chest_xray,inpaint,abs logit,lesion - control,correct,72,0.1002798308605503,"[0.053, 0.144]",0.0058240269812956,0.003922619086089,,,v3_strong_chest,main
+chest_xray,inpaint,abs logit,lesion - control,misclassified,34,0.0213762853871768,"[-0.037, 0.086]",0.0058240269812956,0.003922619086089,,,v3_strong_chest,main
+chest_xray,inpaint,abs logit,gradcam - control,all,84,0.2077506851896436,"[0.144, 0.279]",0.0049029548110303,0.003922619086089,,,v3_strong_chest,main
+chest_xray,inpaint,abs logit,gradcam - control,correct,72,0.2649666323604381,"[0.186, 0.345]",0.0049029548110303,0.003922619086089,,,v3_strong_chest,main
+chest_xray,inpaint,abs logit,gradcam - control,misclassified,34,0.0618903128246606,"[0.006, 0.129]",0.0049029548110303,0.003922619086089,,,v3_strong_chest,main
+chest_xray,inpaint,abs logit,lesion - gradcam,all,84,-0.1297016151569089,"[-0.185, -0.076]",0.0058240269812956,0.0049029548110303,,,v3_strong_chest,main
+chest_xray,inpaint,abs logit,lesion - gradcam,correct,72,-0.1646868014998878,"[-0.231, -0.098]",0.0058240269812956,0.0049029548110303,,,v3_strong_chest,main
+chest_xray,inpaint,abs logit,lesion - gradcam,misclassified,34,-0.0405140274374837,"[-0.1, 0.018]",0.0058240269812956,0.0049029548110303,,,v3_strong_chest,main
+chest_xray,inpaint,abs logit,border - border_control,all,84,-0.2652010311139747,"[-0.345, -0.182]",0.0389356673932543,0.0208451727784908,,,v3_strong_chest,main
+chest_xray,inpaint,abs logit,border - border_control,correct,72,-0.3050066171141948,"[-0.409, -0.195]",0.0389356673932543,0.0208451727784908,,,v3_strong_chest,main
+chest_xray,inpaint,abs logit,border - border_control,misclassified,34,-0.1637248189162305,"[-0.272, -0.039]",0.0389356673932543,0.0208451727784908,,,v3_strong_chest,main
+chest_xray,inpaint,logit per change,lesion - control,all,84,0.1451418193973553,"[-32.164, 29.255]",0.0058240269812956,0.003922619086089,,,v3_strong_chest,main
+chest_xray,inpaint,logit per change,lesion - control,correct,72,12.422327384940273,"[-19.645, 42.889]",0.0058240269812956,0.003922619086089,,,v3_strong_chest,main
+chest_xray,inpaint,logit per change,lesion - control,misclassified,34,-31.153035467409214,"[-120.9, 54.262]",0.0058240269812956,0.003922619086089,,,v3_strong_chest,main
+chest_xray,inpaint,logit per change,gradcam - control,all,84,98.86468311252018,"[60.618, 137.405]",0.0049029548110303,0.003922619086089,,,v3_strong_chest,main
+chest_xray,inpaint,logit per change,gradcam - control,correct,72,101.2936925004091,"[64.652, 139.509]",0.0049029548110303,0.003922619086089,,,v3_strong_chest,main
+chest_xray,inpaint,logit per change,gradcam - control,misclassified,34,92.67241974339495,"[-11.969, 195.977]",0.0049029548110303,0.003922619086089,,,v3_strong_chest,main
+chest_xray,inpaint,logit per change,lesion - gradcam,all,84,-98.71954129312284,"[-146.112, -57.946]",0.0058240269812956,0.0049029548110303,,,v3_strong_chest,main
+chest_xray,inpaint,logit per change,lesion - gradcam,correct,72,-88.87136511546883,"[-133.783, -53.241]",0.0058240269812956,0.0049029548110303,,,v3_strong_chest,main
+chest_xray,inpaint,logit per change,lesion - gradcam,misclassified,34,-123.82545521080414,"[-228.785, -19.657]",0.0058240269812956,0.0049029548110303,,,v3_strong_chest,main
+chest_xray,inpaint,logit per change,border - border_control,all,84,-20.07643995459113,"[-28.487, -11.639]",0.0389356673932543,0.0208451727784908,,,v3_strong_chest,main
+chest_xray,inpaint,logit per change,border - border_control,correct,72,-32.1663455296198,"[-41.284, -22.59]",0.0389356673932543,0.0208451727784908,,,v3_strong_chest,main
+chest_xray,inpaint,logit per change,border - border_control,misclassified,34,10.744305243721357,"[0.189, 20.751]",0.0389356673932543,0.0208451727784908,,,v3_strong_chest,main
+chest_xray,inpaint,logit,lesion reliance: M - C (raw),all,84,-0.1891084119847161,"[-0.293, -0.09]",,,- - -,,v3_strong_chest,main
+chest_xray,inpaint,logit,"lesion reliance: M - C (adjusted: size, start score, pixel change)",all,84,-0.1279273418645776,"[-0.287, 0.031]",,,,0.1138134714175444,v3_strong_chest,main
+chest_xray,inpaint,logit,border reliance: M - C (raw),all,84,0.6945728165938632,"[0.358, 1.009]",,,+ + +,,v3_strong_chest,main
+chest_xray,inpaint,logit,"border reliance: M - C (adjusted: size, start score, pixel change)",all,84,0.0026024484407732,"[-0.311, 0.317]",,,,0.9868742403947136,v3_strong_chest,main
+brain_figshare,blur,logit,lesion - control,all,645,0.1762331717404553,"[0.081, 0.271]",0.0012959817055964,0.0008593809832153,,,v2_corrected,main
+brain_figshare,blur,logit,lesion - control,correct,598,0.1494207593450284,"[0.056, 0.242]",0.0012959817055964,0.0008593809832153,,,v2_corrected,main
+brain_figshare,blur,logit,lesion - control,misclassified,116,0.3655958342831581,"[0.088, 0.57]",0.0012959817055964,0.0008593809832153,,,v2_corrected,main
+brain_figshare,blur,logit,gradcam - control,all,645,0.2056400982398318,"[0.137, 0.277]",0.0008023316902548,0.0008593809832153,,,v2_corrected,main
+brain_figshare,blur,logit,gradcam - control,correct,598,0.1905700632324305,"[0.115, 0.27]",0.0008023316902548,0.0008593809832153,,,v2_corrected,main
+brain_figshare,blur,logit,gradcam - control,misclassified,116,0.3120722204796038,"[0.177, 0.442]",0.0008023316902548,0.0008593809832153,,,v2_corrected,main
+brain_figshare,blur,logit,lesion - gradcam,all,645,-0.0294069264993764,"[-0.125, 0.069]",0.0012959817055964,0.0008023316902548,,,v2_corrected,main
+brain_figshare,blur,logit,lesion - gradcam,correct,598,-0.041149303887402,"[-0.134, 0.059]",0.0012959817055964,0.0008023316902548,,,v2_corrected,main
+brain_figshare,blur,logit,lesion - gradcam,misclassified,116,0.0535236138035543,"[-0.24, 0.295]",0.0012959817055964,0.0008023316902548,,,v2_corrected,main
+brain_figshare,blur,logit,border - border_control,all,645,-1.3517925473352417,"[-2.139, -0.651]",0.0137627446376945,0.028654966890229,,,v2_corrected,main
+brain_figshare,blur,logit,border - border_control,correct,598,-1.7547105587253782,"[-2.501, -1.029]",0.0137627446376945,0.028654966890229,,,v2_corrected,main
+brain_figshare,blur,logit,border - border_control,misclassified,116,1.493815908107596,"[0.592, 2.248]",0.0137627446376945,0.028654966890229,,,v2_corrected,main
+brain_figshare,blur,probability,lesion - control,all,645,0.0129724659720881,"[0.004, 0.021]",0.0012959817055964,0.0008593809832153,,,v2_corrected,main
+brain_figshare,blur,probability,lesion - control,correct,598,0.0109525875659866,"[0.003, 0.019]",0.0012959817055964,0.0008593809832153,,,v2_corrected,main
+brain_figshare,blur,probability,lesion - control,misclassified,116,0.0272378572151798,"[-0.001, 0.047]",0.0012959817055964,0.0008593809832153,,,v2_corrected,main
+brain_figshare,blur,probability,gradcam - control,all,645,0.0106764549032915,"[0.003, 0.019]",0.0008023316902548,0.0008593809832153,,,v2_corrected,main
+brain_figshare,blur,probability,gradcam - control,correct,598,0.0083148076230541,"[0.002, 0.015]",0.0008023316902548,0.0008593809832153,,,v2_corrected,main
+brain_figshare,blur,probability,gradcam - control,misclassified,116,0.0273555888199685,"[-0.006, 0.066]",0.0008023316902548,0.0008593809832153,,,v2_corrected,main
+brain_figshare,blur,probability,lesion - gradcam,all,645,0.0022960110687965,"[-0.008, 0.011]",0.0012959817055964,0.0008023316902548,,,v2_corrected,main
+brain_figshare,blur,probability,lesion - gradcam,correct,598,0.0026377799429325,"[-0.007, 0.011]",0.0012959817055964,0.0008023316902548,,,v2_corrected,main
+brain_figshare,blur,probability,lesion - gradcam,misclassified,116,-0.0001177316047887,"[-0.043, 0.032]",0.0012959817055964,0.0008023316902548,,,v2_corrected,main
+brain_figshare,blur,probability,border - border_control,all,645,-0.2380630858134887,"[-0.318, -0.164]",0.0137627446376945,0.028654966890229,,,v2_corrected,main
+brain_figshare,blur,probability,border - border_control,correct,598,-0.2942937856029463,"[-0.37, -0.221]",0.0137627446376945,0.028654966890229,,,v2_corrected,main
+brain_figshare,blur,probability,border - border_control,misclassified,116,0.1590662314495557,"[0.071, 0.253]",0.0137627446376945,0.028654966890229,,,v2_corrected,main
+brain_figshare,blur,abs logit,lesion - control,all,645,0.2018507319187278,"[0.138, 0.272]",0.0012959817055964,0.0008593809832153,,,v2_corrected,main
+brain_figshare,blur,abs logit,lesion - control,correct,598,0.1847663877564853,"[0.121, 0.257]",0.0012959817055964,0.0008593809832153,,,v2_corrected,main
+brain_figshare,blur,abs logit,lesion - control,misclassified,116,0.3225089125645657,"[0.107, 0.494]",0.0012959817055964,0.0008593809832153,,,v2_corrected,main
+brain_figshare,blur,abs logit,gradcam - control,all,645,0.1497195121593946,"[0.104, 0.199]",0.0008023316902548,0.0008593809832153,,,v2_corrected,main
+brain_figshare,blur,abs logit,gradcam - control,correct,598,0.1462268263656525,"[0.097, 0.199]",0.0008023316902548,0.0008593809832153,,,v2_corrected,main
+brain_figshare,blur,abs logit,gradcam - control,misclassified,116,0.1743866055776986,"[0.044, 0.277]",0.0008023316902548,0.0008593809832153,,,v2_corrected,main
+brain_figshare,blur,abs logit,lesion - gradcam,all,645,0.0521312197593331,"[0.002, 0.104]",0.0012959817055964,0.0008023316902548,,,v2_corrected,main
+brain_figshare,blur,abs logit,lesion - gradcam,correct,598,0.0385395613908328,"[-0.014, 0.094]",0.0012959817055964,0.0008023316902548,,,v2_corrected,main
+brain_figshare,blur,abs logit,lesion - gradcam,misclassified,116,0.1481223069868671,"[-0.026, 0.296]",0.0012959817055964,0.0008023316902548,,,v2_corrected,main
+brain_figshare,blur,abs logit,border - border_control,all,645,-2.995213477330244,"[-3.396, -2.644]",0.0137627446376945,0.028654966890229,,,v2_corrected,main
+brain_figshare,blur,abs logit,border - border_control,correct,598,-3.03448460301464,"[-3.475, -2.645]",0.0137627446376945,0.028654966890229,,,v2_corrected,main
+brain_figshare,blur,abs logit,border - border_control,misclassified,116,-2.717861152184196,"[-3.057, -2.382]",0.0137627446376945,0.028654966890229,,,v2_corrected,main
+brain_figshare,blur,logit per change,lesion - control,all,645,233.62002486063037,"[116.565, 355.729]",0.0012959817055964,0.0008593809832153,,,v2_corrected,main
+brain_figshare,blur,logit per change,lesion - control,correct,598,220.47741314920808,"[91.314, 354.995]",0.0012959817055964,0.0008593809832153,,,v2_corrected,main
+brain_figshare,blur,logit per change,lesion - control,misclassified,116,326.43972007254985,"[127.037, 521.456]",0.0012959817055964,0.0008593809832153,,,v2_corrected,main
+brain_figshare,blur,logit per change,gradcam - control,all,645,530.218412880245,"[357.31, 724.675]",0.0008023316902548,0.0008593809832153,,,v2_corrected,main
+brain_figshare,blur,logit per change,gradcam - control,correct,598,547.5862386586872,"[354.36, 758.228]",0.0008023316902548,0.0008593809832153,,,v2_corrected,main
+brain_figshare,blur,logit per change,gradcam - control,misclassified,116,407.5581433199963,"[174.291, 692.77]",0.0008023316902548,0.0008593809832153,,,v2_corrected,main
+brain_figshare,blur,logit per change,lesion - gradcam,all,645,-296.5983880196146,"[-433.871, -164.423]",0.0012959817055964,0.0008023316902548,,,v2_corrected,main
+brain_figshare,blur,logit per change,lesion - gradcam,correct,598,-327.1088255094792,"[-481.132, -172.841]",0.0012959817055964,0.0008023316902548,,,v2_corrected,main
+brain_figshare,blur,logit per change,lesion - gradcam,misclassified,116,-81.11842324744642,"[-319.351, 114.458]",0.0012959817055964,0.0008023316902548,,,v2_corrected,main
+brain_figshare,blur,logit per change,border - border_control,all,645,13.338905918400147,"[-24.053, 47.714]",0.0137627446376945,0.028654966890229,,,v2_corrected,main
+brain_figshare,blur,logit per change,border - border_control,correct,598,5.780785934379429,"[-33.827, 43.231]",0.0137627446376945,0.028654966890229,,,v2_corrected,main
+brain_figshare,blur,logit per change,border - border_control,misclassified,116,66.71812830554646,"[13.132, 131.218]",0.0137627446376945,0.028654966890229,,,v2_corrected,main
+brain_figshare,blur,logit,lesion reliance: M - C (raw),all,645,0.2161750749381297,"[-0.07, 0.421]",,,+ - +,,v2_corrected,main
+brain_figshare,blur,logit,"lesion reliance: M - C (adjusted: size, start score, pixel change)",all,645,0.27815484664185,"[0.034, 0.522]",,,,0.0262996232741249,v2_corrected,main
+brain_figshare,blur,logit,border reliance: M - C (raw),all,645,3.248526466832974,"[2.196, 4.165]",,,+ + +,,v2_corrected,main
+brain_figshare,blur,logit,"border reliance: M - C (adjusted: size, start score, pixel change)",all,645,-0.8499652654853875,"[-1.618, -0.082]",,,,0.0308607759944411,v2_corrected,main
+brain_figshare,inpaint,logit,lesion - control,all,645,0.2169516894138521,"[0.111, 0.335]",0.0016785532053996,0.0005589140939422,,,v2_corrected,main
+brain_figshare,inpaint,logit,lesion - control,correct,598,0.2143013689557096,"[0.1, 0.341]",0.0016785532053996,0.0005589140939422,,,v2_corrected,main
+brain_figshare,inpaint,logit,lesion - control,misclassified,116,0.235669577649484,"[0.106, 0.377]",0.0016785532053996,0.0005589140939422,,,v2_corrected,main
+brain_figshare,inpaint,logit,gradcam - control,all,645,0.0743353967340687,"[0.003, 0.149]",0.0006937664440567,0.0005589140939422,,,v2_corrected,main
+brain_figshare,inpaint,logit,gradcam - control,correct,598,0.0693860380533961,"[-0.008, 0.152]",0.0006937664440567,0.0005589140939422,,,v2_corrected,main
+brain_figshare,inpaint,logit,gradcam - control,misclassified,116,0.1092902424163185,"[-0.002, 0.197]",0.0006937664440567,0.0005589140939422,,,v2_corrected,main
+brain_figshare,inpaint,logit,lesion - gradcam,all,645,0.1426162926797834,"[0.059, 0.237]",0.0016785532053996,0.0006937664440567,,,v2_corrected,main
+brain_figshare,inpaint,logit,lesion - gradcam,correct,598,0.1449153309023134,"[0.056, 0.25]",0.0016785532053996,0.0006937664440567,,,v2_corrected,main
+brain_figshare,inpaint,logit,lesion - gradcam,misclassified,116,0.1263793352331655,"[-0.005, 0.268]",0.0016785532053996,0.0006937664440567,,,v2_corrected,main
+brain_figshare,inpaint,logit,border - border_control,all,645,-1.83764158492518,"[-3.206, -0.615]",0.0210045953622468,0.0289508478572776,,,v2_corrected,main
+brain_figshare,inpaint,logit,border - border_control,correct,598,-2.4389492674733466,"[-3.788, -1.122]",0.0210045953622468,0.0289508478572776,,,v2_corrected,main
+brain_figshare,inpaint,logit,border - border_control,misclassified,116,2.4090939230712443,"[1.648, 3.0]",0.0210045953622468,0.0289508478572776,,,v2_corrected,main
+brain_figshare,inpaint,probability,lesion - control,all,645,0.0381390364608329,"[0.016, 0.065]",0.0016785532053996,0.0005589140939422,,,v2_corrected,main
+brain_figshare,inpaint,probability,lesion - control,correct,598,0.0377401898984698,"[0.017, 0.066]",0.0016785532053996,0.0005589140939422,,,v2_corrected,main
+brain_figshare,inpaint,probability,lesion - control,misclassified,116,0.0409558903075222,"[0.004, 0.076]",0.0016785532053996,0.0005589140939422,,,v2_corrected,main
+brain_figshare,inpaint,probability,gradcam - control,all,645,0.010355679565707,"[0.003, 0.019]",0.0006937664440567,0.0005589140939422,,,v2_corrected,main
+brain_figshare,inpaint,probability,gradcam - control,correct,598,0.0099148205794178,"[0.003, 0.019]",0.0006937664440567,0.0005589140939422,,,v2_corrected,main
+brain_figshare,inpaint,probability,gradcam - control,misclassified,116,0.0134692461563744,"[-0.01, 0.035]",0.0006937664440567,0.0005589140939422,,,v2_corrected,main
+brain_figshare,inpaint,probability,lesion - gradcam,all,645,0.0277833568951259,"[0.012, 0.047]",0.0016785532053996,0.0006937664440567,,,v2_corrected,main
+brain_figshare,inpaint,probability,lesion - gradcam,correct,598,0.027825369319052,"[0.012, 0.048]",0.0016785532053996,0.0006937664440567,,,v2_corrected,main
+brain_figshare,inpaint,probability,lesion - gradcam,misclassified,116,0.0274866441511478,"[-0.006, 0.062]",0.0016785532053996,0.0006937664440567,,,v2_corrected,main
+brain_figshare,inpaint,probability,border - border_control,all,645,-0.2546214936490052,"[-0.376, -0.139]",0.0210045953622468,0.0289508478572776,,,v2_corrected,main
+brain_figshare,inpaint,probability,border - border_control,correct,598,-0.333365245251022,"[-0.453, -0.217]",0.0210045953622468,0.0289508478572776,,,v2_corrected,main
+brain_figshare,inpaint,probability,border - border_control,misclassified,116,0.3015062520402388,"[0.221, 0.39]",0.0210045953622468,0.0289508478572776,,,v2_corrected,main
+brain_figshare,inpaint,abs logit,lesion - control,all,645,0.3942520414462231,"[0.327, 0.471]",0.0016785532053996,0.0005589140939422,,,v2_corrected,main
+brain_figshare,inpaint,abs logit,lesion - control,correct,598,0.3975502867108776,"[0.321, 0.484]",0.0016785532053996,0.0005589140939422,,,v2_corrected,main
+brain_figshare,inpaint,abs logit,lesion - control,misclassified,116,0.3709581842646002,"[0.281, 0.436]",0.0016785532053996,0.0005589140939422,,,v2_corrected,main
+brain_figshare,inpaint,abs logit,gradcam - control,all,645,0.2188078013833525,"[0.176, 0.259]",0.0006937664440567,0.0005589140939422,,,v2_corrected,main
+brain_figshare,inpaint,abs logit,gradcam - control,correct,598,0.2287897249348571,"[0.183, 0.271]",0.0006937664440567,0.0005589140939422,,,v2_corrected,main
+brain_figshare,inpaint,abs logit,gradcam - control,misclassified,116,0.1483104663008513,"[0.064, 0.241]",0.0006937664440567,0.0005589140939422,,,v2_corrected,main
+brain_figshare,inpaint,abs logit,lesion - gradcam,all,645,0.1754442400628705,"[0.118, 0.241]",0.0016785532053996,0.0006937664440567,,,v2_corrected,main
+brain_figshare,inpaint,abs logit,lesion - gradcam,correct,598,0.1687605617760205,"[0.108, 0.242]",0.0016785532053996,0.0006937664440567,,,v2_corrected,main
+brain_figshare,inpaint,abs logit,lesion - gradcam,misclassified,116,0.2226477179637489,"[0.123, 0.314]",0.0016785532053996,0.0006937664440567,,,v2_corrected,main
+brain_figshare,inpaint,abs logit,border - border_control,all,645,-3.28445772018659,"[-4.128, -2.509]",0.0210045953622468,0.0289508478572776,,,v2_corrected,main
+brain_figshare,inpaint,abs logit,border - border_control,correct,598,-3.403674940152264,"[-4.332, -2.533]",0.0210045953622468,0.0289508478572776,,,v2_corrected,main
+brain_figshare,inpaint,abs logit,border - border_control,misclassified,116,-2.4424861041790185,"[-2.832, -2.075]",0.0210045953622468,0.0289508478572776,,,v2_corrected,main
+brain_figshare,inpaint,logit per change,lesion - control,all,645,151.94300150179788,"[53.363, 262.58]",0.0016785532053996,0.0005589140939422,,,v2_corrected,main
+brain_figshare,inpaint,logit per change,lesion - control,correct,598,147.31368133210367,"[41.522, 269.272]",0.0016785532053996,0.0005589140939422,,,v2_corrected,main
+brain_figshare,inpaint,logit per change,lesion - control,misclassified,116,184.63757520026311,"[25.185, 340.081]",0.0016785532053996,0.0005589140939422,,,v2_corrected,main
+brain_figshare,inpaint,logit per change,gradcam - control,all,645,185.8771694510692,"[0.607, 379.149]",0.0006937664440567,0.0005589140939422,,,v2_corrected,main
+brain_figshare,inpaint,logit per change,gradcam - control,correct,598,198.89007359320823,"[-14.506, 423.479]",0.0006937664440567,0.0005589140939422,,,v2_corrected,main
+brain_figshare,inpaint,logit per change,gradcam - control,misclassified,116,93.9735339472127,"[-143.019, 303.505]",0.0006937664440567,0.0005589140939422,,,v2_corrected,main
+brain_figshare,inpaint,logit per change,lesion - gradcam,all,645,-33.93416794927139,"[-215.674, 138.273]",0.0016785532053996,0.0006937664440567,,,v2_corrected,main
+brain_figshare,inpaint,logit per change,lesion - gradcam,correct,598,-51.576392261104566,"[-253.316, 149.997]",0.0016785532053996,0.0006937664440567,,,v2_corrected,main
+brain_figshare,inpaint,logit per change,lesion - gradcam,misclassified,116,90.66404125305044,"[-103.241, 285.344]",0.0016785532053996,0.0006937664440567,,,v2_corrected,main
+brain_figshare,inpaint,logit per change,border - border_control,all,645,-61.14355159085424,"[-107.195, -19.217]",0.0210045953622468,0.0289508478572776,,,v2_corrected,main
+brain_figshare,inpaint,logit per change,border - border_control,correct,598,-79.30598777110605,"[-126.74, -33.42]",0.0210045953622468,0.0289508478572776,,,v2_corrected,main
+brain_figshare,inpaint,logit per change,border - border_control,misclassified,116,67.12865393217405,"[32.282, 104.179]",0.0210045953622468,0.0289508478572776,,,v2_corrected,main
+brain_figshare,inpaint,logit,lesion reliance: M - C (raw),all,645,0.0213682086937744,"[-0.124, 0.183]",,,- - +,,v2_corrected,main
+brain_figshare,inpaint,logit,"lesion reliance: M - C (adjusted: size, start score, pixel change)",all,645,0.0064836496114457,"[-0.186, 0.199]",,,,0.9462855004570604,v2_corrected,main
+brain_figshare,inpaint,logit,border reliance: M - C (raw),all,645,4.84804319054459,"[3.547, 6.115]",,,+ + +,,v2_corrected,main
+brain_figshare,inpaint,logit,"border reliance: M - C (adjusted: size, start score, pixel change)",all,645,-0.1057383403236218,"[-1.126, 0.914]",,,,0.8356470984118198,v2_corrected,main
+siim,blur,logit,lesion - control,all,514,0.1680338793795377,"[0.129, 0.211]",0.0010446015254154,0.001088556590003,,,v5_siim,replication (frozen plan)
+siim,blur,logit,lesion - control,correct,429,0.185529806446322,"[0.136, 0.242]",0.0010446015254154,0.001088556590003,,,v5_siim,replication (frozen plan)
+siim,blur,logit,lesion - control,misclassified,300,0.1373535215588552,"[0.085, 0.191]",0.0010446015254154,0.001088556590003,,,v5_siim,replication (frozen plan)
+siim,blur,logit,gradcam - control,all,514,0.3233710731211784,"[0.282, 0.367]",0.0010091985315955,0.001088556590003,,,v5_siim,replication (frozen plan)
+siim,blur,logit,gradcam - control,correct,429,0.3519770381365222,"[0.301, 0.403]",0.0010091985315955,0.001088556590003,,,v5_siim,replication (frozen plan)
+siim,blur,logit,gradcam - control,misclassified,300,0.2732084701835577,"[0.213, 0.336]",0.0010091985315955,0.001088556590003,,,v5_siim,replication (frozen plan)
+siim,blur,logit,lesion - gradcam,all,514,-0.1553371937416407,"[-0.192, -0.12]",0.0010446015254154,0.0010091985315955,,,v5_siim,replication (frozen plan)
+siim,blur,logit,lesion - gradcam,correct,429,-0.1664472316902001,"[-0.215, -0.118]",0.0010446015254154,0.0010091985315955,,,v5_siim,replication (frozen plan)
+siim,blur,logit,lesion - gradcam,misclassified,300,-0.1358549486247024,"[-0.187, -0.089]",0.0010446015254154,0.0010091985315955,,,v5_siim,replication (frozen plan)
+siim,blur,logit,border - border_control,all,514,-1.1618674026238074,"[-1.281, -1.049]",0.0265235722633414,0.0211733092821152,,,v5_siim,replication (frozen plan)
+siim,blur,logit,border - border_control,correct,429,-1.5854344275095282,"[-1.706, -1.457]",0.0265235722633414,0.0211733092821152,,,v5_siim,replication (frozen plan)
+siim,blur,logit,border - border_control,misclassified,300,-0.419112369699204,"[-0.603, -0.231]",0.0265235722633414,0.0211733092821152,,,v5_siim,replication (frozen plan)
+siim,blur,probability,lesion - control,all,514,0.0233589628923315,"[0.017, 0.03]",0.0010446015254154,0.001088556590003,,,v5_siim,replication (frozen plan)
+siim,blur,probability,lesion - control,correct,429,0.0230955597807342,"[0.016, 0.032]",0.0010446015254154,0.001088556590003,,,v5_siim,replication (frozen plan)
+siim,blur,probability,lesion - control,misclassified,300,0.0238208590630254,"[0.015, 0.033]",0.0010446015254154,0.001088556590003,,,v5_siim,replication (frozen plan)
+siim,blur,probability,gradcam - control,all,514,0.0468750910757401,"[0.04, 0.054]",0.0010091985315955,0.001088556590003,,,v5_siim,replication (frozen plan)
+siim,blur,probability,gradcam - control,correct,429,0.0485659511173086,"[0.041, 0.057]",0.0010091985315955,0.001088556590003,,,v5_siim,replication (frozen plan)
+siim,blur,probability,gradcam - control,misclassified,300,0.0439100472171323,"[0.034, 0.055]",0.0010091985315955,0.001088556590003,,,v5_siim,replication (frozen plan)
+siim,blur,probability,lesion - gradcam,all,514,-0.0235161281834085,"[-0.029, -0.018]",0.0010446015254154,0.0010091985315955,,,v5_siim,replication (frozen plan)
+siim,blur,probability,lesion - gradcam,correct,429,-0.0254703913365744,"[-0.033, -0.018]",0.0010446015254154,0.0010091985315955,,,v5_siim,replication (frozen plan)
+siim,blur,probability,lesion - gradcam,misclassified,300,-0.0200891881541068,"[-0.028, -0.012]",0.0010446015254154,0.0010091985315955,,,v5_siim,replication (frozen plan)
+siim,blur,probability,border - border_control,all,514,-0.1634707610868876,"[-0.182, -0.146]",0.0265235722633414,0.0211733092821152,,,v5_siim,replication (frozen plan)
+siim,blur,probability,border - border_control,correct,429,-0.2449840890228246,"[-0.264, -0.225]",0.0265235722633414,0.0211733092821152,,,v5_siim,replication (frozen plan)
+siim,blur,probability,border - border_control,misclassified,300,-0.0205313181706551,"[-0.044, 0.002]",0.0265235722633414,0.0211733092821152,,,v5_siim,replication (frozen plan)
+siim,blur,abs logit,lesion - control,all,514,0.0344453002211436,"[0.009, 0.063]",0.0010446015254154,0.001088556590003,,,v5_siim,replication (frozen plan)
+siim,blur,abs logit,lesion - control,correct,429,0.0685902355417093,"[0.032, 0.108]",0.0010446015254154,0.001088556590003,,,v5_siim,replication (frozen plan)
+siim,blur,abs logit,lesion - control,misclassified,300,-0.0254302827874198,"[-0.056, 0.003]",0.0010446015254154,0.001088556590003,,,v5_siim,replication (frozen plan)
+siim,blur,abs logit,gradcam - control,all,514,0.1712474341645604,"[0.143, 0.201]",0.0010091985315955,0.001088556590003,,,v5_siim,replication (frozen plan)
+siim,blur,abs logit,gradcam - control,correct,429,0.2279774033466388,"[0.191, 0.266]",0.0010091985315955,0.001088556590003,,,v5_siim,replication (frozen plan)
+siim,blur,abs logit,gradcam - control,misclassified,300,0.0717673810631302,"[0.034, 0.109]",0.0010091985315955,0.001088556590003,,,v5_siim,replication (frozen plan)
+siim,blur,abs logit,lesion - gradcam,all,514,-0.1368021339434169,"[-0.164, -0.11]",0.0010446015254154,0.0010091985315955,,,v5_siim,replication (frozen plan)
+siim,blur,abs logit,lesion - gradcam,correct,429,-0.1593871678049294,"[-0.197, -0.121]",0.0010446015254154,0.0010091985315955,,,v5_siim,replication (frozen plan)
+siim,blur,abs logit,lesion - gradcam,misclassified,300,-0.0971976638505501,"[-0.127, -0.067]",0.0010446015254154,0.0010091985315955,,,v5_siim,replication (frozen plan)
+siim,blur,abs logit,border - border_control,all,514,-1.2247794398309568,"[-1.312, -1.141]",0.0265235722633414,0.0211733092821152,,,v5_siim,replication (frozen plan)
+siim,blur,abs logit,border - border_control,correct,429,-1.4322492056099467,"[-1.541, -1.319]",0.0265235722633414,0.0211733092821152,,,v5_siim,replication (frozen plan)
+siim,blur,abs logit,border - border_control,misclassified,300,-0.8609663862685141,"[-0.971, -0.745]",0.0265235722633414,0.0211733092821152,,,v5_siim,replication (frozen plan)
+siim,blur,logit per change,lesion - control,all,514,202.9186360708524,"[143.495, 267.496]",0.0010446015254154,0.001088556590003,,,v5_siim,replication (frozen plan)
+siim,blur,logit per change,lesion - control,correct,429,212.1898261146732,"[137.67, 286.504]",0.0010446015254154,0.001088556590003,,,v5_siim,replication (frozen plan)
+siim,blur,logit per change,lesion - control,misclassified,300,186.66094210115247,"[80.614, 290.713]",0.0010446015254154,0.001088556590003,,,v5_siim,replication (frozen plan)
+siim,blur,logit per change,gradcam - control,all,514,435.5537437132335,"[354.386, 517.863]",0.0010091985315955,0.001088556590003,,,v5_siim,replication (frozen plan)
+siim,blur,logit per change,gradcam - control,correct,429,474.91736376804266,"[370.99, 577.696]",0.0010091985315955,0.001088556590003,,,v5_siim,replication (frozen plan)
+siim,blur,logit per change,gradcam - control,misclassified,300,366.5268242599787,"[242.007, 493.435]",0.0010091985315955,0.001088556590003,,,v5_siim,replication (frozen plan)
+siim,blur,logit per change,lesion - gradcam,all,514,-232.635107642381,"[-318.73, -139.918]",0.0010446015254154,0.0010091985315955,,,v5_siim,replication (frozen plan)
+siim,blur,logit per change,lesion - gradcam,correct,429,-262.7275376533694,"[-369.297, -150.115]",0.0010446015254154,0.0010091985315955,,,v5_siim,replication (frozen plan)
+siim,blur,logit per change,lesion - gradcam,misclassified,300,-179.8658821588263,"[-307.442, -47.802]",0.0010446015254154,0.0010091985315955,,,v5_siim,replication (frozen plan)
+siim,blur,logit per change,border - border_control,all,514,-66.65556481931378,"[-72.693, -60.994]",0.0265235722633414,0.0211733092821152,,,v5_siim,replication (frozen plan)
+siim,blur,logit per change,border - border_control,correct,429,-88.15263208438544,"[-94.115, -82.135]",0.0265235722633414,0.0211733092821152,,,v5_siim,replication (frozen plan)
+siim,blur,logit per change,border - border_control,misclassified,300,-28.958921865205976,"[-39.651, -19.246]",0.0265235722633414,0.0211733092821152,,,v5_siim,replication (frozen plan)
+siim,blur,logit,lesion reliance: M - C (raw),all,514,-0.0481762848874667,"[-0.125, 0.021]",,,- + +,,v5_siim,replication (frozen plan)
+siim,blur,logit,"lesion reliance: M - C (adjusted: size, start score, pixel change)",all,514,0.0976721563534392,"[-0.012, 0.207]",,,,0.081105672068424,v5_siim,replication (frozen plan)
+siim,blur,logit,border reliance: M - C (raw),all,514,1.1663220578103242,"[0.943, 1.379]",,,+ + +,,v5_siim,replication (frozen plan)
+siim,blur,logit,"border reliance: M - C (adjusted: size, start score, pixel change)",all,514,-0.0355309533232759,"[-0.309, 0.238]",,,,0.7984117129179276,v5_siim,replication (frozen plan)
+siim,inpaint,logit,lesion - control,all,514,0.1142782109382474,"[0.087, 0.142]",0.0011905148093654,0.0006869940052054,,,v5_siim,replication (frozen plan)
+siim,inpaint,logit,lesion - control,correct,429,0.1462985253238447,"[0.11, 0.186]",0.0011905148093654,0.0006869940052054,,,v5_siim,replication (frozen plan)
+siim,inpaint,logit,lesion - control,misclassified,300,0.0581283024977892,"[0.021, 0.097]",0.0011905148093654,0.0006869940052054,,,v5_siim,replication (frozen plan)
+siim,inpaint,logit,gradcam - control,all,514,0.1997566773428131,"[0.17, 0.23]",0.0008065926493799,0.0006869940052054,,,v5_siim,replication (frozen plan)
+siim,inpaint,logit,gradcam - control,correct,429,0.2336119091216012,"[0.197, 0.272]",0.0008065926493799,0.0006869940052054,,,v5_siim,replication (frozen plan)
+siim,inpaint,logit,gradcam - control,misclassified,300,0.1403891101878668,"[0.098, 0.188]",0.0008065926493799,0.0006869940052054,,,v5_siim,replication (frozen plan)
+siim,inpaint,logit,lesion - gradcam,all,514,-0.0854784664045656,"[-0.118, -0.056]",0.0011905148093654,0.0008065926493799,,,v5_siim,replication (frozen plan)
+siim,inpaint,logit,lesion - gradcam,correct,429,-0.0873133837977564,"[-0.126, -0.048]",0.0011905148093654,0.0008065926493799,,,v5_siim,replication (frozen plan)
+siim,inpaint,logit,lesion - gradcam,misclassified,300,-0.0822608076900776,"[-0.126, -0.04]",0.0011905148093654,0.0008065926493799,,,v5_siim,replication (frozen plan)
+siim,inpaint,logit,border - border_control,all,514,0.5464801623186413,"[0.435, 0.657]",0.0406384018435761,0.0215509674922668,,,v5_siim,replication (frozen plan)
+siim,inpaint,logit,border - border_control,correct,429,0.1139452397811953,"[-0.012, 0.238]",0.0406384018435761,0.0215509674922668,,,v5_siim,replication (frozen plan)
+siim,inpaint,logit,border - border_control,misclassified,300,1.3049610443396626,"[1.144, 1.455]",0.0406384018435761,0.0215509674922668,,,v5_siim,replication (frozen plan)
+siim,inpaint,probability,lesion - control,all,514,0.0153108243085277,"[0.011, 0.02]",0.0011905148093654,0.0006869940052054,,,v5_siim,replication (frozen plan)
+siim,inpaint,probability,lesion - control,correct,429,0.0178691646192356,"[0.013, 0.023]",0.0011905148093654,0.0006869940052054,,,v5_siim,replication (frozen plan)
+siim,inpaint,probability,lesion - control,misclassified,300,0.0108245918351078,"[0.004, 0.018]",0.0011905148093654,0.0006869940052054,,,v5_siim,replication (frozen plan)
+siim,inpaint,probability,gradcam - control,all,514,0.0292920043096832,"[0.025, 0.035]",0.0008065926493799,0.0006869940052054,,,v5_siim,replication (frozen plan)
+siim,inpaint,probability,gradcam - control,correct,429,0.0319003926990226,"[0.026, 0.038]",0.0008065926493799,0.0006869940052054,,,v5_siim,replication (frozen plan)
+siim,inpaint,probability,gradcam - control,misclassified,300,0.0247180089555202,"[0.017, 0.033]",0.0008065926493799,0.0006869940052054,,,v5_siim,replication (frozen plan)
+siim,inpaint,probability,lesion - gradcam,all,514,-0.0139811800011555,"[-0.019, -0.009]",0.0011905148093654,0.0008065926493799,,,v5_siim,replication (frozen plan)
+siim,inpaint,probability,lesion - gradcam,correct,429,-0.0140312280797869,"[-0.02, -0.008]",0.0011905148093654,0.0008065926493799,,,v5_siim,replication (frozen plan)
+siim,inpaint,probability,lesion - gradcam,misclassified,300,-0.0138934171204124,"[-0.022, -0.006]",0.0011905148093654,0.0008065926493799,,,v5_siim,replication (frozen plan)
+siim,inpaint,probability,border - border_control,all,514,0.1010026291429136,"[0.083, 0.118]",0.0406384018435761,0.0215509674922668,,,v5_siim,replication (frozen plan)
+siim,inpaint,probability,border - border_control,correct,429,0.0327217583589618,"[0.014, 0.051]",0.0406384018435761,0.0215509674922668,,,v5_siim,replication (frozen plan)
+siim,inpaint,probability,border - border_control,misclassified,300,0.2207380132676292,"[0.194, 0.246]",0.0406384018435761,0.0215509674922668,,,v5_siim,replication (frozen plan)
+siim,inpaint,abs logit,lesion - control,all,514,0.0422536273089499,"[0.023, 0.061]",0.0011905148093654,0.0006869940052054,,,v5_siim,replication (frozen plan)
+siim,inpaint,abs logit,lesion - control,correct,429,0.0642112223298692,"[0.041, 0.091]",0.0011905148093654,0.0006869940052054,,,v5_siim,replication (frozen plan)
+siim,inpaint,abs logit,lesion - control,misclassified,300,0.0037494160401235,"[-0.022, 0.029]",0.0011905148093654,0.0006869940052054,,,v5_siim,replication (frozen plan)
+siim,inpaint,abs logit,gradcam - control,all,514,0.0804125842983785,"[0.062, 0.1]",0.0008065926493799,0.0006869940052054,,,v5_siim,replication (frozen plan)
+siim,inpaint,abs logit,gradcam - control,correct,429,0.1190709550201118,"[0.095, 0.146]",0.0008065926493799,0.0006869940052054,,,v5_siim,replication (frozen plan)
+siim,inpaint,abs logit,gradcam - control,misclassified,300,0.0126223699256245,"[-0.011, 0.036]",0.0008065926493799,0.0006869940052054,,,v5_siim,replication (frozen plan)
+siim,inpaint,abs logit,lesion - gradcam,all,514,-0.0381589569894285,"[-0.056, -0.021]",0.0011905148093654,0.0008065926493799,,,v5_siim,replication (frozen plan)
+siim,inpaint,abs logit,lesion - gradcam,correct,429,-0.0548597326902426,"[-0.079, -0.032]",0.0011905148093654,0.0008065926493799,,,v5_siim,replication (frozen plan)
+siim,inpaint,abs logit,lesion - gradcam,misclassified,300,-0.0088729538855009,"[-0.032, 0.015]",0.0011905148093654,0.0008065926493799,,,v5_siim,replication (frozen plan)
+siim,inpaint,abs logit,border - border_control,all,514,-0.3417032193785096,"[-0.407, -0.28]",0.0406384018435761,0.0215509674922668,,,v5_siim,replication (frozen plan)
+siim,inpaint,abs logit,border - border_control,correct,429,-0.1484192002549494,"[-0.215, -0.076]",0.0406384018435761,0.0215509674922668,,,v5_siim,replication (frozen plan)
+siim,inpaint,abs logit,border - border_control,misclassified,300,-0.6806405529130384,"[-0.79, -0.574]",0.0406384018435761,0.0215509674922668,,,v5_siim,replication (frozen plan)
+siim,inpaint,logit per change,lesion - control,all,514,228.98573668416017,"[174.848, 278.583]",0.0011905148093654,0.0006869940052054,,,v5_siim,replication (frozen plan)
+siim,inpaint,logit per change,lesion - control,correct,429,258.3191263927237,"[195.1, 323.645]",0.0011905148093654,0.0006869940052054,,,v5_siim,replication (frozen plan)
+siim,inpaint,logit per change,lesion - control,misclassified,300,177.54754258807205,"[101.024, 255.397]",0.0011905148093654,0.0006869940052054,,,v5_siim,replication (frozen plan)
+siim,inpaint,logit per change,gradcam - control,all,514,346.85405299836947,"[283.832, 409.523]",0.0008065926493799,0.0006869940052054,,,v5_siim,replication (frozen plan)
+siim,inpaint,logit per change,gradcam - control,correct,429,420.554765053911,"[338.155, 504.729]",0.0008065926493799,0.0006869940052054,,,v5_siim,replication (frozen plan)
+siim,inpaint,logit per change,gradcam - control,misclassified,300,217.6145900724021,"[125.548, 310.59]",0.0008065926493799,0.0006869940052054,,,v5_siim,replication (frozen plan)
+siim,inpaint,logit per change,lesion - gradcam,all,514,-117.86831631420937,"[-188.723, -51.763]",0.0011905148093654,0.0008065926493799,,,v5_siim,replication (frozen plan)
+siim,inpaint,logit per change,lesion - gradcam,correct,429,-162.23563866118732,"[-254.095, -63.753]",0.0011905148093654,0.0008065926493799,,,v5_siim,replication (frozen plan)
+siim,inpaint,logit per change,lesion - gradcam,misclassified,300,-40.06704748433012,"[-128.359, 55.995]",0.0011905148093654,0.0008065926493799,,,v5_siim,replication (frozen plan)
+siim,inpaint,logit per change,border - border_control,all,514,19.673417124558664,"[14.313, 24.895]",0.0406384018435761,0.0215509674922668,,,v5_siim,replication (frozen plan)
+siim,inpaint,logit per change,border - border_control,correct,429,-4.913605105404626,"[-10.762, 0.88]",0.0406384018435761,0.0215509674922668,,,v5_siim,replication (frozen plan)
+siim,inpaint,logit per change,border - border_control,misclassified,300,62.78851682067286,"[56.244, 69.344]",0.0406384018435761,0.0215509674922668,,,v5_siim,replication (frozen plan)
+siim,inpaint,logit,lesion reliance: M - C (raw),all,514,-0.0881702228260554,"[-0.138, -0.04]",,,- + -,,v5_siim,replication (frozen plan)
+siim,inpaint,logit,"lesion reliance: M - C (adjusted: size, start score, pixel change)",all,514,0.0509885440314783,"[-0.044, 0.146]",,,,0.2929942423618102,v5_siim,replication (frozen plan)
+siim,inpaint,logit,border reliance: M - C (raw),all,514,1.1910158045584671,"[0.999, 1.379]",,,+ + +,,v5_siim,replication (frozen plan)
+siim,inpaint,logit,"border reliance: M - C (adjusted: size, start score, pixel change)",all,514,0.0766153459826478,"[-0.182, 0.335]",,,,0.5610984274436709,v5_siim,replication (frozen plan)
+brain_figshare,blur,logit,lesion - control,all,645,0.005843207299305,"[-0.078, 0.088]",0.0012959817055964,0.0008593809832153,,,v5_densenet_brain,second architecture
+brain_figshare,blur,logit,lesion - control,correct,583,0.0065291417480486,"[-0.081, 0.091]",0.0012959817055964,0.0008593809832153,,,v5_densenet_brain,second architecture
+brain_figshare,blur,logit,lesion - control,misclassified,124,0.0017547418979807,"[-0.194, 0.172]",0.0012959817055964,0.0008593809832153,,,v5_densenet_brain,second architecture
+brain_figshare,blur,logit,gradcam - control,all,645,0.0843730891960882,"[0.029, 0.144]",0.0006172445295396,0.0008593809832153,,,v5_densenet_brain,second architecture
+brain_figshare,blur,logit,gradcam - control,correct,583,0.088825414355172,"[0.023, 0.149]",0.0006172445295396,0.0008593809832153,,,v5_densenet_brain,second architecture
+brain_figshare,blur,logit,gradcam - control,misclassified,124,0.0578353093809736,"[-0.04, 0.167]",0.0006172445295396,0.0008593809832153,,,v5_densenet_brain,second architecture
+brain_figshare,blur,logit,lesion - gradcam,all,645,-0.0785298818967832,"[-0.146, -0.015]",0.0012959817055964,0.0006172445295396,,,v5_densenet_brain,second architecture
+brain_figshare,blur,logit,lesion - gradcam,correct,583,-0.0822962726071234,"[-0.151, -0.014]",0.0012959817055964,0.0006172445295396,,,v5_densenet_brain,second architecture
+brain_figshare,blur,logit,lesion - gradcam,misclassified,124,-0.0560805674829929,"[-0.276, 0.122]",0.0012959817055964,0.0006172445295396,,,v5_densenet_brain,second architecture
+brain_figshare,blur,logit,border - border_control,all,645,-0.822812001515921,"[-1.313, -0.257]",0.0137627446376945,0.028654966890229,,,v5_densenet_brain,second architecture
+brain_figshare,blur,logit,border - border_control,correct,583,-1.0514707515408512,"[-1.545, -0.45]",0.0137627446376945,0.028654966890229,,,v5_densenet_brain,second architecture
+brain_figshare,blur,logit,border - border_control,misclassified,124,0.5400928502513779,"[-0.164, 1.54]",0.0137627446376945,0.028654966890229,,,v5_densenet_brain,second architecture
+brain_figshare,blur,probability,lesion - control,all,645,-0.005577735259863,"[-0.016, 0.005]",0.0012959817055964,0.0008593809832153,,,v5_densenet_brain,second architecture
+brain_figshare,blur,probability,lesion - control,correct,583,-0.0046320231322077,"[-0.014, 0.005]",0.0012959817055964,0.0008593809832153,,,v5_densenet_brain,second architecture
+brain_figshare,blur,probability,lesion - control,misclassified,124,-0.0112145877617513,"[-0.047, 0.018]",0.0012959817055964,0.0008593809832153,,,v5_densenet_brain,second architecture
+brain_figshare,blur,probability,gradcam - control,all,645,0.0007465305572735,"[-0.007, 0.009]",0.0006172445295396,0.0008593809832153,,,v5_densenet_brain,second architecture
+brain_figshare,blur,probability,gradcam - control,correct,583,0.0006730650820134,"[-0.007, 0.008]",0.0006172445295396,0.0008593809832153,,,v5_densenet_brain,second architecture
+brain_figshare,blur,probability,gradcam - control,misclassified,124,0.0011844165015393,"[-0.015, 0.018]",0.0006172445295396,0.0008593809832153,,,v5_densenet_brain,second architecture
+brain_figshare,blur,probability,lesion - gradcam,all,645,-0.0063242658171366,"[-0.019, 0.005]",0.0012959817055964,0.0006172445295396,,,v5_densenet_brain,second architecture
+brain_figshare,blur,probability,lesion - gradcam,correct,583,-0.0053050882142211,"[-0.017, 0.005]",0.0012959817055964,0.0006172445295396,,,v5_densenet_brain,second architecture
+brain_figshare,blur,probability,lesion - gradcam,misclassified,124,-0.0123990042632906,"[-0.056, 0.021]",0.0012959817055964,0.0006172445295396,,,v5_densenet_brain,second architecture
+brain_figshare,blur,probability,border - border_control,all,645,-0.2702391791141786,"[-0.355, -0.173]",0.0137627446376945,0.028654966890229,,,v5_densenet_brain,second architecture
+brain_figshare,blur,probability,border - border_control,correct,583,-0.3336821621152634,"[-0.412, -0.245]",0.0137627446376945,0.028654966890229,,,v5_densenet_brain,second architecture
+brain_figshare,blur,probability,border - border_control,misclassified,124,0.1079083850325749,"[-0.04, 0.317]",0.0137627446376945,0.028654966890229,,,v5_densenet_brain,second architecture
+brain_figshare,blur,abs logit,lesion - control,all,645,0.047959223835794,"[0.007, 0.091]",0.0012959817055964,0.0008593809832153,,,v5_densenet_brain,second architecture
+brain_figshare,blur,abs logit,lesion - control,correct,583,0.0447875137497627,"[0.002, 0.087]",0.0012959817055964,0.0008593809832153,,,v5_densenet_brain,second architecture
+brain_figshare,blur,abs logit,lesion - control,misclassified,124,0.0668639850320308,"[-0.045, 0.197]",0.0012959817055964,0.0008593809832153,,,v5_densenet_brain,second architecture
+brain_figshare,blur,abs logit,gradcam - control,all,645,-0.0303215017917659,"[-0.067, 0.005]",0.0006172445295396,0.0008593809832153,,,v5_densenet_brain,second architecture
+brain_figshare,blur,abs logit,gradcam - control,correct,583,-0.0159206359771428,"[-0.048, 0.018]",0.0006172445295396,0.0008593809832153,,,v5_densenet_brain,second architecture
+brain_figshare,blur,abs logit,gradcam - control,misclassified,124,-0.116156878247991,"[-0.208, -0.041]",0.0006172445295396,0.0008593809832153,,,v5_densenet_brain,second architecture
+brain_figshare,blur,abs logit,lesion - gradcam,all,645,0.07828072562756,"[0.031, 0.121]",0.0012959817055964,0.0006172445295396,,,v5_densenet_brain,second architecture
+brain_figshare,blur,abs logit,lesion - gradcam,correct,583,0.0607081497269055,"[0.011, 0.103]",0.0012959817055964,0.0006172445295396,,,v5_densenet_brain,second architecture
+brain_figshare,blur,abs logit,lesion - gradcam,misclassified,124,0.1830208632800219,"[0.06, 0.327]",0.0012959817055964,0.0006172445295396,,,v5_densenet_brain,second architecture
+brain_figshare,blur,abs logit,border - border_control,all,645,-1.8690419560129867,"[-2.088, -1.685]",0.0137627446376945,0.028654966890229,,,v5_densenet_brain,second architecture
+brain_figshare,blur,abs logit,border - border_control,correct,583,-1.9541888846883717,"[-2.144, -1.789]",0.0137627446376945,0.028654966890229,,,v5_densenet_brain,second architecture
+brain_figshare,blur,abs logit,border - border_control,misclassified,124,-1.361529507037761,"[-1.966, -0.93]",0.0137627446376945,0.028654966890229,,,v5_densenet_brain,second architecture
+brain_figshare,blur,logit per change,lesion - control,all,645,-25.264978909643958,"[-124.606, 79.3]",0.0012959817055964,0.0008593809832153,,,v5_densenet_brain,second architecture
+brain_figshare,blur,logit per change,lesion - control,correct,583,-26.958955947200455,"[-148.62, 91.969]",0.0012959817055964,0.0008593809832153,,,v5_densenet_brain,second architecture
+brain_figshare,blur,logit per change,lesion - control,misclassified,124,-15.16814455269744,"[-137.929, 120.909]",0.0012959817055964,0.0008593809832153,,,v5_densenet_brain,second architecture
+brain_figshare,blur,logit per change,gradcam - control,all,645,343.26398933917574,"[227.165, 463.989]",0.0006172445295396,0.0008593809832153,,,v5_densenet_brain,second architecture
+brain_figshare,blur,logit per change,gradcam - control,correct,583,348.16677177156896,"[211.355, 487.695]",0.0006172445295396,0.0008593809832153,,,v5_densenet_brain,second architecture
+brain_figshare,blur,logit per change,gradcam - control,misclassified,124,314.0412897331486,"[132.468, 461.862]",0.0006172445295396,0.0008593809832153,,,v5_densenet_brain,second architecture
+brain_figshare,blur,logit per change,lesion - gradcam,all,645,-368.5289682488197,"[-456.682, -275.74]",0.0012959817055964,0.0006172445295396,,,v5_densenet_brain,second architecture
+brain_figshare,blur,logit per change,lesion - gradcam,correct,583,-375.12572771876944,"[-471.222, -273.793]",0.0012959817055964,0.0006172445295396,,,v5_densenet_brain,second architecture
+brain_figshare,blur,logit per change,lesion - gradcam,misclassified,124,-329.209434285846,"[-529.895, -101.632]",0.0012959817055964,0.0006172445295396,,,v5_densenet_brain,second architecture
+brain_figshare,blur,logit per change,border - border_control,all,645,-2.6584592109853564,"[-21.026, 17.393]",0.0137627446376945,0.028654966890229,,,v5_densenet_brain,second architecture
+brain_figshare,blur,logit per change,border - border_control,correct,583,-7.354050871925903,"[-27.848, 16.601]",0.0137627446376945,0.028654966890229,,,v5_densenet_brain,second architecture
+brain_figshare,blur,logit per change,border - border_control,misclassified,124,25.329293962318573,"[-13.975, 86.384]",0.0137627446376945,0.028654966890229,,,v5_densenet_brain,second architecture
+brain_figshare,blur,logit,lesion reliance: M - C (raw),all,645,-0.0047743998500679,"[-0.202, 0.171]",,,- + -,,v5_densenet_brain,second architecture
+brain_figshare,blur,logit,"lesion reliance: M - C (adjusted: size, start score, pixel change)",all,645,0.0646165164030393,"[-0.107, 0.236]",,,,0.4514863423185445,v5_densenet_brain,second architecture
+brain_figshare,blur,logit,border reliance: M - C (raw),all,645,1.5915636017922292,"[0.775, 2.616]",,,+ + +,,v5_densenet_brain,second architecture
+brain_figshare,blur,logit,"border reliance: M - C (adjusted: size, start score, pixel change)",all,645,-0.9555736691263298,"[-1.837, -0.074]",,,,0.0343089895706958,v5_densenet_brain,second architecture
+brain_figshare,inpaint,logit,lesion - control,all,645,0.1729350002280386,"[0.104, 0.247]",0.0016785532053996,0.0005589140939422,,,v5_densenet_brain,second architecture
+brain_figshare,inpaint,logit,lesion - control,correct,583,0.1577538863070619,"[0.083, 0.246]",0.0016785532053996,0.0005589140939422,,,v5_densenet_brain,second architecture
+brain_figshare,inpaint,logit,lesion - control,misclassified,124,0.2634209921958742,"[0.128, 0.39]",0.0016785532053996,0.0005589140939422,,,v5_densenet_brain,second architecture
+brain_figshare,inpaint,logit,gradcam - control,all,645,0.0458650407443925,"[0.015, 0.076]",0.0005046896020568,0.0005589140939422,,,v5_densenet_brain,second architecture
+brain_figshare,inpaint,logit,gradcam - control,correct,583,0.0422244997103246,"[0.007, 0.077]",0.0005046896020568,0.0005589140939422,,,v5_densenet_brain,second architecture
+brain_figshare,inpaint,logit,gradcam - control,misclassified,124,0.0675642367639987,"[0.004, 0.108]",0.0005046896020568,0.0005589140939422,,,v5_densenet_brain,second architecture
+brain_figshare,inpaint,logit,lesion - gradcam,all,645,0.127069959483646,"[0.059, 0.201]",0.0016785532053996,0.0005046896020568,,,v5_densenet_brain,second architecture
+brain_figshare,inpaint,logit,lesion - gradcam,correct,583,0.1155293865967373,"[0.046, 0.201]",0.0016785532053996,0.0005046896020568,,,v5_densenet_brain,second architecture
+brain_figshare,inpaint,logit,lesion - gradcam,misclassified,124,0.1958567554318754,"[0.056, 0.332]",0.0016785532053996,0.0005046896020568,,,v5_densenet_brain,second architecture
+brain_figshare,inpaint,logit,border - border_control,all,645,-0.5305948272260815,"[-0.968, -0.088]",0.0210045953622468,0.0289508478572776,,,v5_densenet_brain,second architecture
+brain_figshare,inpaint,logit,border - border_control,correct,583,-0.7553936903020417,"[-1.197, -0.29]",0.0210045953622468,0.0289508478572776,,,v5_densenet_brain,second architecture
+brain_figshare,inpaint,logit,border - border_control,misclassified,124,0.8093034321871057,"[0.296, 1.432]",0.0210045953622468,0.0289508478572776,,,v5_densenet_brain,second architecture
+brain_figshare,inpaint,probability,lesion - control,all,645,0.034794004428298,"[0.017, 0.058]",0.0016785532053996,0.0005589140939422,,,v5_densenet_brain,second architecture
+brain_figshare,inpaint,probability,lesion - control,correct,583,0.033206126811291,"[0.015, 0.061]",0.0016785532053996,0.0005589140939422,,,v5_densenet_brain,second architecture
+brain_figshare,inpaint,probability,lesion - control,misclassified,124,0.0442584404404583,"[0.027, 0.064]",0.0016785532053996,0.0005589140939422,,,v5_densenet_brain,second architecture
+brain_figshare,inpaint,probability,gradcam - control,all,645,0.0048689226725189,"[0.002, 0.008]",0.0005046896020568,0.0005589140939422,,,v5_densenet_brain,second architecture
+brain_figshare,inpaint,probability,gradcam - control,correct,583,0.0040929650838437,"[0.002, 0.007]",0.0005046896020568,0.0005589140939422,,,v5_densenet_brain,second architecture
+brain_figshare,inpaint,probability,gradcam - control,misclassified,124,0.009493964846745,"[-0.001, 0.017]",0.0005046896020568,0.0005589140939422,,,v5_densenet_brain,second architecture
+brain_figshare,inpaint,probability,lesion - gradcam,all,645,0.029925081755779,"[0.013, 0.054]",0.0016785532053996,0.0005046896020568,,,v5_densenet_brain,second architecture
+brain_figshare,inpaint,probability,lesion - gradcam,correct,583,0.0291131617274473,"[0.011, 0.056]",0.0016785532053996,0.0005046896020568,,,v5_densenet_brain,second architecture
+brain_figshare,inpaint,probability,lesion - gradcam,misclassified,124,0.0347644755937133,"[0.016, 0.058]",0.0016785532053996,0.0005046896020568,,,v5_densenet_brain,second architecture
+brain_figshare,inpaint,probability,border - border_control,all,645,-0.1535789512304999,"[-0.226, -0.074]",0.0210045953622468,0.0289508478572776,,,v5_densenet_brain,second architecture
+brain_figshare,inpaint,probability,border - border_control,correct,583,-0.2066009246885721,"[-0.279, -0.132]",0.0210045953622468,0.0289508478572776,,,v5_densenet_brain,second architecture
+brain_figshare,inpaint,probability,border - border_control,misclassified,124,0.1624548977623981,"[0.031, 0.347]",0.0210045953622468,0.0289508478572776,,,v5_densenet_brain,second architecture
+brain_figshare,inpaint,abs logit,lesion - control,all,645,0.1943390674816892,"[0.148, 0.253]",0.0016785532053996,0.0005589140939422,,,v5_densenet_brain,second architecture
+brain_figshare,inpaint,abs logit,lesion - control,correct,583,0.1966675753616961,"[0.144, 0.264]",0.0016785532053996,0.0005589140939422,,,v5_densenet_brain,second architecture
+brain_figshare,inpaint,abs logit,lesion - control,misclassified,124,0.1804601554055329,"[0.108, 0.258]",0.0016785532053996,0.0005589140939422,,,v5_densenet_brain,second architecture
+brain_figshare,inpaint,abs logit,gradcam - control,all,645,0.0174525324036234,"[-0.01, 0.042]",0.0005046896020568,0.0005589140939422,,,v5_densenet_brain,second architecture
+brain_figshare,inpaint,abs logit,gradcam - control,correct,583,0.0387183724622667,"[0.014, 0.061]",0.0005046896020568,0.0005589140939422,,,v5_densenet_brain,second architecture
+brain_figshare,inpaint,abs logit,gradcam - control,misclassified,124,-0.1093010538451963,"[-0.153, -0.069]",0.0005046896020568,0.0005589140939422,,,v5_densenet_brain,second architecture
+brain_figshare,inpaint,abs logit,lesion - gradcam,all,645,0.1768865350780657,"[0.129, 0.241]",0.0016785532053996,0.0005046896020568,,,v5_densenet_brain,second architecture
+brain_figshare,inpaint,abs logit,lesion - gradcam,correct,583,0.1579492028994293,"[0.107, 0.228]",0.0016785532053996,0.0005046896020568,,,v5_densenet_brain,second architecture
+brain_figshare,inpaint,abs logit,lesion - gradcam,misclassified,124,0.2897612092507293,"[0.234, 0.357]",0.0016785532053996,0.0005046896020568,,,v5_densenet_brain,second architecture
+brain_figshare,inpaint,abs logit,border - border_control,all,645,-1.304457050609073,"[-1.569, -1.063]",0.0210045953622468,0.0289508478572776,,,v5_densenet_brain,second architecture
+brain_figshare,inpaint,abs logit,border - border_control,correct,583,-1.371607711398159,"[-1.676, -1.102]",0.0210045953622468,0.0289508478572776,,,v5_densenet_brain,second architecture
+brain_figshare,inpaint,abs logit,border - border_control,misclassified,124,-0.904210126409374,"[-1.3, -0.584]",0.0210045953622468,0.0289508478572776,,,v5_densenet_brain,second architecture
+brain_figshare,inpaint,logit per change,lesion - control,all,645,116.41604752736896,"[67.571, 167.735]",0.0016785532053996,0.0005589140939422,,,v5_densenet_brain,second architecture
+brain_figshare,inpaint,logit per change,lesion - control,correct,583,105.20842836297874,"[52.241, 161.793]",0.0016785532053996,0.0005589140939422,,,v5_densenet_brain,second architecture
+brain_figshare,inpaint,logit per change,lesion - control,misclassified,124,183.2182955683568,"[71.273, 301.358]",0.0016785532053996,0.0005589140939422,,,v5_densenet_brain,second architecture
+brain_figshare,inpaint,logit per change,gradcam - control,all,645,179.17974505058973,"[113.096, 249.285]",0.0005046896020568,0.0005589140939422,,,v5_densenet_brain,second architecture
+brain_figshare,inpaint,logit per change,gradcam - control,correct,583,181.9198861401058,"[102.767, 263.793]",0.0005046896020568,0.0005589140939422,,,v5_densenet_brain,second architecture
+brain_figshare,inpaint,logit per change,gradcam - control,misclassified,124,162.84732136235897,"[10.175, 308.91]",0.0005046896020568,0.0005589140939422,,,v5_densenet_brain,second architecture
+brain_figshare,inpaint,logit per change,lesion - gradcam,all,645,-62.763697523220735,"[-140.462, 11.462]",0.0016785532053996,0.0005046896020568,,,v5_densenet_brain,second architecture
+brain_figshare,inpaint,logit per change,lesion - gradcam,correct,583,-76.71145777712704,"[-161.649, 4.462]",0.0016785532053996,0.0005046896020568,,,v5_densenet_brain,second architecture
+brain_figshare,inpaint,logit per change,lesion - gradcam,misclassified,124,20.370974205997868,"[-177.378, 207.262]",0.0016785532053996,0.0005046896020568,,,v5_densenet_brain,second architecture
+brain_figshare,inpaint,logit per change,border - border_control,all,645,-9.203641096132392,"[-27.322, 9.59]",0.0210045953622468,0.0289508478572776,,,v5_densenet_brain,second architecture
+brain_figshare,inpaint,logit per change,border - border_control,correct,583,-16.18554720641719,"[-36.143, 3.708]",0.0210045953622468,0.0289508478572776,,,v5_densenet_brain,second architecture
+brain_figshare,inpaint,logit per change,border - border_control,misclassified,124,32.41153309358673,"[4.033, 71.704]",0.0210045953622468,0.0289508478572776,,,v5_densenet_brain,second architecture
+brain_figshare,inpaint,logit,lesion reliance: M - C (raw),all,645,0.1056671058888122,"[-0.032, 0.249]",,,+ + +,,v5_densenet_brain,second architecture
+brain_figshare,inpaint,logit,"lesion reliance: M - C (adjusted: size, start score, pixel change)",all,645,0.0197700458049305,"[-0.144, 0.183]",,,,0.8086870521348735,v5_densenet_brain,second architecture
+brain_figshare,inpaint,logit,border reliance: M - C (raw),all,645,1.5646971224891475,"[0.936, 2.261]",,,+ + +,,v5_densenet_brain,second architecture
+brain_figshare,inpaint,logit,"border reliance: M - C (adjusted: size, start score, pixel change)",all,645,-0.3431213484158053,"[-0.938, 0.251]",,,,0.2512515378092456,v5_densenet_brain,second architecture
