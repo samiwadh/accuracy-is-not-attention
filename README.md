@@ -14,7 +14,7 @@ The question: when Grad-CAM heatmaps of correct and misclassified predictions di
 | `paper/` | Manuscript (PDF and LaTeX) |
 | `requirements.txt` | Python packages |
 
-Per-image results and the trained models (45 checkpoints) are on Kaggle:
+Per-image results and the trained models (27 checkpoints) are on Kaggle:
 https://www.kaggle.com/datasets/samiwadho/accuracy-is-not-attention-grad-cam-artefacts
 
 ## Datasets
