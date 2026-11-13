@@ -1,9 +1,13 @@
-# raw data and large binaries are NOT committed
+# data and large files stay local (models are on Kaggle)
 Dataset/
-outputs/
-release/
 *.h5
 *.keras
-*.zip
+outputs/*/
+!results/
+# notebook and system clutter
 .ipynb_checkpoints/
+.virtual_documents/
 __pycache__/
+*.pyc
+.DS_Store
+Thumbs.db

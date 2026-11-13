@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this code or these results, please cite them as below."
+title: "Accuracy Is Not Attention: Confounders of Grad-CAM Comparisons Between Correct and Misclassified Medical Image Predictions"
+authors:
+  - family-names: Sami
+    given-names: Abdul
+    affiliation: "University of Milano-Bicocca"
+version: "3.0"
+date-released: 2026-11-13
+repository-code: "https://github.com/samiwadh/accuracy-is-not-attention"
